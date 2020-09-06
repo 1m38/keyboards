@@ -358,11 +358,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# falx46-rescue_MJ-4PP-9-kbd
+# foostan_kbd_MJ-4PP-9
 #
-DEF falx46-rescue_MJ-4PP-9-kbd J 0 40 Y Y 1 F N
+DEF foostan_kbd_MJ-4PP-9 J 0 40 Y Y 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "falx46-rescue_MJ-4PP-9-kbd" 0 -150 50 H V C CNN
+F1 "foostan_kbd_MJ-4PP-9" 0 -150 50 H V C CNN
 F2 "" 275 175 50 H I C CNN
 F3 "" 275 175 50 H I C CNN
 DRAW
@@ -379,11 +379,11 @@ X ~ D 200 25 79 L 28 20 1 1 I
 ENDDRAW
 ENDDEF
 #
-# falx46-rescue_SW_PUSH-kbd
+# foostan_kbd_SW_PUSH
 #
-DEF falx46-rescue_SW_PUSH-kbd SW 0 40 N N 1 F N
+DEF foostan_kbd_SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "falx46-rescue_SW_PUSH-kbd" 0 -80 50 H V C CNN
+F1 "foostan_kbd_SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW

@@ -483,7 +483,7 @@ ROWL0
 Text GLabel 6300 1100 1    50   Input ~ 0
 COL0
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW1
+L foostan_kbd:SW_PUSH SW1
 U 1 1 5F5B60E2
 P 7450 1400
 F 0 "SW1" H 7450 1655 50  0000 C CNN
@@ -505,7 +505,7 @@ F 3 "~" H 7750 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW2
+L foostan_kbd:SW_PUSH SW2
 U 1 1 5F5B6E67
 P 8250 1400
 F 0 "SW2" H 8250 1655 50  0000 C CNN
@@ -527,7 +527,7 @@ F 3 "~" H 8550 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW3
+L foostan_kbd:SW_PUSH SW3
 U 1 1 5F5B876D
 P 9050 1400
 F 0 "SW3" H 9050 1655 50  0000 C CNN
@@ -549,7 +549,7 @@ F 3 "~" H 9350 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW4
+L foostan_kbd:SW_PUSH SW4
 U 1 1 5F5B8EE0
 P 9850 1400
 F 0 "SW4" H 9850 1655 50  0000 C CNN
@@ -571,7 +571,7 @@ F 3 "~" H 10150 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW5
+L foostan_kbd:SW_PUSH SW5
 U 1 1 5F5D5213
 P 10650 1400
 F 0 "SW5" H 10650 1655 50  0000 C CNN
@@ -617,7 +617,7 @@ COL5
 Text GLabel 11150 1100 1    50   Input ~ 0
 COL6
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW6
+L foostan_kbd:SW_PUSH SW6
 U 1 1 5F5D7903
 P 6600 2100
 F 0 "SW6" H 6600 2355 50  0000 C CNN
@@ -639,7 +639,7 @@ F 3 "~" H 6900 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW7
+L foostan_kbd:SW_PUSH SW7
 U 1 1 5F5D856F
 P 7450 2100
 F 0 "SW7" H 7450 2355 50  0000 C CNN
@@ -661,7 +661,7 @@ F 3 "~" H 7750 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW8
+L foostan_kbd:SW_PUSH SW8
 U 1 1 5F5D8D10
 P 8250 2100
 F 0 "SW8" H 8250 2355 50  0000 C CNN
@@ -683,7 +683,7 @@ F 3 "~" H 8550 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW9
+L foostan_kbd:SW_PUSH SW9
 U 1 1 5F5D95B6
 P 9050 2100
 F 0 "SW9" H 9050 2355 50  0000 C CNN
@@ -705,7 +705,7 @@ F 3 "~" H 9350 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW10
+L foostan_kbd:SW_PUSH SW10
 U 1 1 5F5D9E13
 P 9850 2100
 F 0 "SW10" H 9850 2355 50  0000 C CNN
@@ -727,7 +727,7 @@ F 3 "~" H 10150 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW11
+L foostan_kbd:SW_PUSH SW11
 U 1 1 5F5DB97E
 P 10650 2100
 F 0 "SW11" H 10650 2355 50  0000 C CNN
@@ -749,7 +749,7 @@ F 3 "~" H 10950 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW12
+L foostan_kbd:SW_PUSH SW12
 U 1 1 5F5DC0BA
 P 11450 2100
 F 0 "SW12" H 11450 2355 50  0000 C CNN
@@ -824,7 +824,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 1100 6300 2100
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW13
+L foostan_kbd:SW_PUSH SW13
 U 1 1 5F5F3D5F
 P 6600 2750
 F 0 "SW13" H 6600 3005 50  0000 C CNN
@@ -835,7 +835,7 @@ F 3 "" H 6600 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW14
+L foostan_kbd:SW_PUSH SW14
 U 1 1 5F5F4155
 P 7450 2750
 F 0 "SW14" H 7450 3005 50  0000 C CNN
@@ -846,7 +846,7 @@ F 3 "" H 7450 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW15
+L foostan_kbd:SW_PUSH SW15
 U 1 1 5F5F446B
 P 8250 2750
 F 0 "SW15" H 8250 3005 50  0000 C CNN
@@ -857,7 +857,7 @@ F 3 "" H 8250 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW16
+L foostan_kbd:SW_PUSH SW16
 U 1 1 5F5F485F
 P 9050 2750
 F 0 "SW16" H 9050 3005 50  0000 C CNN
@@ -868,7 +868,7 @@ F 3 "" H 9050 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW17
+L foostan_kbd:SW_PUSH SW17
 U 1 1 5F5F4CB1
 P 9850 2750
 F 0 "SW17" H 9850 3005 50  0000 C CNN
@@ -879,7 +879,7 @@ F 3 "" H 9850 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW18
+L foostan_kbd:SW_PUSH SW18
 U 1 1 5F5F50F9
 P 10650 2750
 F 0 "SW18" H 10650 3005 50  0000 C CNN
@@ -983,7 +983,7 @@ Connection ~ 10950 3050
 Wire Wire Line
 	10950 3050 11300 3050
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW20
+L foostan_kbd:SW_PUSH SW20
 U 1 1 5F5FD739
 P 9850 3400
 F 0 "SW20" H 9850 3655 50  0000 C CNN
@@ -994,7 +994,7 @@ F 3 "" H 9850 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW21
+L foostan_kbd:SW_PUSH SW21
 U 1 1 5F5FDB5A
 P 10650 3400
 F 0 "SW21" H 10650 3655 50  0000 C CNN
@@ -1005,7 +1005,7 @@ F 3 "" H 10650 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW22
+L foostan_kbd:SW_PUSH SW22
 U 1 1 5F5FDECC
 P 11450 3400
 F 0 "SW22" H 11450 3655 50  0000 C CNN
@@ -1049,7 +1049,7 @@ F 3 "~" H 11750 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW23
+L foostan_kbd:SW_PUSH SW23
 U 1 1 5F6013A1
 P 10650 4100
 F 0 "SW23" H 10650 4355 50  0000 C CNN
@@ -1325,7 +1325,7 @@ F 3 "~" H 7750 8000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW46
+L foostan_kbd:SW_PUSH SW46
 U 1 1 5F68C46B
 P 7450 7850
 F 0 "SW46" H 7450 8105 50  0000 C CNN
@@ -1374,7 +1374,7 @@ F 3 "~" H 8550 7350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW45
+L foostan_kbd:SW_PUSH SW45
 U 1 1 5F686113
 P 8250 7200
 F 0 "SW45" H 8250 7455 50  0000 C CNN
@@ -1385,7 +1385,7 @@ F 3 "" H 8250 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW44
+L foostan_kbd:SW_PUSH SW44
 U 1 1 5F685D24
 P 7450 7200
 F 0 "SW44" H 7450 7455 50  0000 C CNN
@@ -1396,7 +1396,7 @@ F 3 "" H 7450 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW43
+L foostan_kbd:SW_PUSH SW43
 U 1 1 5F685647
 P 6600 7200
 F 0 "SW43" H 6600 7455 50  0000 C CNN
@@ -1506,7 +1506,7 @@ F 3 "~" H 7050 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW42
+L foostan_kbd:SW_PUSH SW42
 U 1 1 5F67A585
 P 11450 6550
 F 0 "SW42" H 11450 6805 50  0000 C CNN
@@ -1517,7 +1517,7 @@ F 3 "" H 11450 6550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW41
+L foostan_kbd:SW_PUSH SW41
 U 1 1 5F67A112
 P 10650 6550
 F 0 "SW41" H 10650 6805 50  0000 C CNN
@@ -1528,7 +1528,7 @@ F 3 "" H 10650 6550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW40
+L foostan_kbd:SW_PUSH SW40
 U 1 1 5F679C55
 P 9850 6550
 F 0 "SW40" H 9850 6805 50  0000 C CNN
@@ -1539,7 +1539,7 @@ F 3 "" H 9850 6550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW39
+L foostan_kbd:SW_PUSH SW39
 U 1 1 5F6797C3
 P 9050 6550
 F 0 "SW39" H 9050 6805 50  0000 C CNN
@@ -1550,7 +1550,7 @@ F 3 "" H 9050 6550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW38
+L foostan_kbd:SW_PUSH SW38
 U 1 1 5F6793B1
 P 8250 6550
 F 0 "SW38" H 8250 6805 50  0000 C CNN
@@ -1561,7 +1561,7 @@ F 3 "" H 8250 6550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW37
+L foostan_kbd:SW_PUSH SW37
 U 1 1 5F678F73
 P 7450 6550
 F 0 "SW37" H 7450 6805 50  0000 C CNN
@@ -1683,7 +1683,7 @@ F 3 "~" H 6900 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW35
+L foostan_kbd:SW_PUSH SW35
 U 1 1 5F653360
 P 11450 5900
 F 0 "SW35" H 11450 6155 50  0000 C CNN
@@ -1694,7 +1694,7 @@ F 3 "" H 11450 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW34
+L foostan_kbd:SW_PUSH SW34
 U 1 1 5F652E0C
 P 10650 5900
 F 0 "SW34" H 10650 6155 50  0000 C CNN
@@ -1705,7 +1705,7 @@ F 3 "" H 10650 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW33
+L foostan_kbd:SW_PUSH SW33
 U 1 1 5F6528E6
 P 9850 5900
 F 0 "SW33" H 9850 6155 50  0000 C CNN
@@ -1716,7 +1716,7 @@ F 3 "" H 9850 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW32
+L foostan_kbd:SW_PUSH SW32
 U 1 1 5F65245C
 P 9050 5900
 F 0 "SW32" H 9050 6155 50  0000 C CNN
@@ -1727,7 +1727,7 @@ F 3 "" H 9050 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW31
+L foostan_kbd:SW_PUSH SW31
 U 1 1 5F651F57
 P 8250 5900
 F 0 "SW31" H 8250 6155 50  0000 C CNN
@@ -1738,7 +1738,7 @@ F 3 "" H 8250 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW30
+L foostan_kbd:SW_PUSH SW30
 U 1 1 5F651BB2
 P 7450 5900
 F 0 "SW30" H 7450 6155 50  0000 C CNN
@@ -1749,7 +1749,7 @@ F 3 "" H 7450 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW29
+L foostan_kbd:SW_PUSH SW29
 U 1 1 5F651603
 P 6600 5900
 F 0 "SW29" H 6600 6155 50  0000 C CNN
@@ -1829,7 +1829,7 @@ F 3 "~" H 7750 5400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW28
+L foostan_kbd:SW_PUSH SW28
 U 1 1 5F62D006
 P 10650 5250
 F 0 "SW28" H 10650 5505 50  0000 C CNN
@@ -1840,7 +1840,7 @@ F 3 "" H 10650 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW27
+L foostan_kbd:SW_PUSH SW27
 U 1 1 5F62C98B
 P 9850 5250
 F 0 "SW27" H 9850 5505 50  0000 C CNN
@@ -1851,7 +1851,7 @@ F 3 "" H 9850 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW26
+L foostan_kbd:SW_PUSH SW26
 U 1 1 5F62C423
 P 9050 5250
 F 0 "SW26" H 9050 5505 50  0000 C CNN
@@ -1862,7 +1862,7 @@ F 3 "" H 9050 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW25
+L foostan_kbd:SW_PUSH SW25
 U 1 1 5F62BD0C
 P 8250 5250
 F 0 "SW25" H 8250 5505 50  0000 C CNN
@@ -1873,7 +1873,7 @@ F 3 "" H 8250 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L falx46-rescue:SW_PUSH-kbd SW24
+L foostan_kbd:SW_PUSH SW24
 U 1 1 5F626DF7
 P 7450 5250
 F 0 "SW24" H 7450 5505 50  0000 C CNN
@@ -2452,7 +2452,7 @@ F 3 "~" H 1150 900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L falx46-rescue:MJ-4PP-9-kbd J4
+L foostan_kbd:MJ-4PP-9 J4
 U 1 1 60A4AE0C
 P 2750 8325
 F 0 "J4" H 2781 8601 50  0000 C CNN
