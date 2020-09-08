@@ -41,6 +41,16 @@ switch_corresponds = {
     "SW23": "SW46",
     }
 
+led_corresponts = {
+    "LED1": "LED6",
+    "LED2": "LED5",
+    "LED3": "LED4",
+    "LED11": "LED10",
+    "LED12": "LED9",
+    "LED13": "LED8",
+    "LED14": "LED7",
+}
+
 def print_modules_left_switches():
     for r in switch_refs["left"]:
         m = pcb.FindModuleByReference(r)
@@ -53,8 +63,8 @@ def move_left_switches_origin():
         m.SetPosition(pcbnew.wxPointMM(0, 0))
         m.SetOrientationDegrees(0)
 
-def move_right_switches_left_mirror(x_center):
-    for rl, rr in switch_corresponds.items():
+def move_right_modules_left_mirror(x_center, module_corresponts):
+    for rl, rr in module_corresponts.items():
         ml = pcb.FindModuleByReference(rl)
         mr = pcb.FindModuleByReference(rr)
         l_pos = pcbnew.ToMM(ml.GetPosition())
@@ -212,6 +222,18 @@ def arrange_left():
         m.SetPosition(pcbnew.wxPointMM(pos.x, pos.y))
         m.SetOrientationDegrees(-pos.angle_deg)
 
+def arrange_diodes():
+    for i in range(1, 46+1):
+        r = "SW" + str(i)
+        sw = pcb.FindModuleByReference("SW" + str(i))
+        d = pcb.FindModuleByReference("D" + str(i))
+        angle = -sw.GetOrientationDegrees()
+        tmp_pos = pcbnew.ToMM(sw.GetPosition())
+        sw_pos = MyPosition(tmp_pos[0], tmp_pos[1])
+        d_pos = sw_pos + SwitchPosition(0, 0, angle).right(0.43).up(-0.05).to_mm()
+        d.SetPosition(pcbnew.wxPointMM(d_pos.x, d_pos.y))
+        d.SetOrientationDegrees(90 - angle)
+
 def arrange_keys():
     HandsGap_mm = 5
 
@@ -225,18 +247,10 @@ def arrange_keys():
     print("center: {}".format(center))
 
     #arrange right
-    move_right_switches_left_mirror(center)
+    move_right_modules_left_mirror(center, switch_corresponds)
+    move_right_modules_left_mirror(center, led_corresponts)
 
-def arrange_diodes():
-    for i in range(1, 46+1):
-        r = "SW" + str(i)
-        sw = pcb.FindModuleByReference("SW" + str(i))
-        d = pcb.FindModuleByReference("D" + str(i))
-        angle = -sw.GetOrientationDegrees()
-        tmp_pos = pcbnew.ToMM(sw.GetPosition())
-        sw_pos = MyPosition(tmp_pos[0], tmp_pos[1])
-        d_pos = sw_pos + SwitchPosition(0, 0, angle).right(0.43).up(-0.05).to_mm()
-        d.SetPosition(pcbnew.wxPointMM(d_pos.x, d_pos.y))
-        d.SetOrientationDegrees(90 - angle)
+    arrange_diodes()
+
 
 
