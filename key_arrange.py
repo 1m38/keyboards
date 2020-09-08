@@ -227,5 +227,16 @@ def arrange_keys():
     #arrange right
     move_right_switches_left_mirror(center)
 
+def arrange_diodes():
+    for i in range(1, 46+1):
+        r = "SW" + str(i)
+        sw = pcb.FindModuleByReference("SW" + str(i))
+        d = pcb.FindModuleByReference("D" + str(i))
+        angle = -sw.GetOrientationDegrees()
+        tmp_pos = pcbnew.ToMM(sw.GetPosition())
+        sw_pos = MyPosition(tmp_pos[0], tmp_pos[1])
+        d_pos = sw_pos + SwitchPosition(0, 0, angle).right(0.43).up(-0.05).to_mm()
+        d.SetPosition(pcbnew.wxPointMM(d_pos.x, d_pos.y))
+        d.SetOrientationDegrees(90 - angle)
 
 
