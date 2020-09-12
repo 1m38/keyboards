@@ -61,36 +61,16 @@ F 3 "~" H 2200 2100 50  0001 C CNN
 	1    2200 2100
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R4
-U 1 1 5F532C81
-P 1950 2300
-F 0 "R4" V 1743 2300 50  0000 C CNN
-F 1 "22" V 1834 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1880 2300 50  0001 C CNN
-F 3 "~" H 1950 2300 50  0001 C CNN
-	1    1950 2300
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	1700 2250 1750 2250
 Wire Wire Line
-	1750 2250 1750 2300
-Wire Wire Line
-	1750 2300 1800 2300
-Wire Wire Line
 	1700 2350 1750 2350
-Wire Wire Line
-	1750 2350 1750 2300
-Connection ~ 1750 2300
 Text GLabel 2500 2300 2    50   Input ~ 0
 DP
 Text GLabel 2500 2100 2    50   Input ~ 0
 DN
 Wire Wire Line
 	2350 2100 2500 2100
-Wire Wire Line
-	2100 2300 2500 2300
 $Comp
 L Device:R R1
 U 1 1 5F535B97
@@ -396,7 +376,7 @@ U 1 1 5F52810C
 P 1100 2150
 F 0 "J1" H 1207 3017 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1207 2926 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1250 2150 50  0001 C CNN
+F 2 "1m38_kbd:USB_C_Receptacle_GCT_USB4085" H 1250 2150 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 2150 50  0001 C CNN
 	1    1100 2150
 	1    0    0    -1  
@@ -488,7 +468,7 @@ U 1 1 5F5B60E2
 P 7450 1400
 F 0 "SW1" H 7450 1655 50  0000 C CNN
 F 1 "SW_PUSH" H 7450 1564 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 7450 1400 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 7450 1400 50  0001 C CNN
 F 3 "" H 7450 1400 50  0000 C CNN
 	1    7450 1400
 	1    0    0    -1  
@@ -510,7 +490,7 @@ U 1 1 5F5B6E67
 P 8250 1400
 F 0 "SW2" H 8250 1655 50  0000 C CNN
 F 1 "SW_PUSH" H 8250 1564 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 8250 1400 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 8250 1400 50  0001 C CNN
 F 3 "" H 8250 1400 50  0000 C CNN
 	1    8250 1400
 	1    0    0    -1  
@@ -532,7 +512,7 @@ U 1 1 5F5B876D
 P 9050 1400
 F 0 "SW3" H 9050 1655 50  0000 C CNN
 F 1 "SW_PUSH" H 9050 1564 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9050 1400 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9050 1400 50  0001 C CNN
 F 3 "" H 9050 1400 50  0000 C CNN
 	1    9050 1400
 	1    0    0    -1  
@@ -554,7 +534,7 @@ U 1 1 5F5B8EE0
 P 9850 1400
 F 0 "SW4" H 9850 1655 50  0000 C CNN
 F 1 "SW_PUSH" H 9850 1564 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9850 1400 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9850 1400 50  0001 C CNN
 F 3 "" H 9850 1400 50  0000 C CNN
 	1    9850 1400
 	1    0    0    -1  
@@ -576,7 +556,7 @@ U 1 1 5F5D5213
 P 10650 1400
 F 0 "SW5" H 10650 1655 50  0000 C CNN
 F 1 "SW_PUSH" H 10650 1564 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 10650 1400 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 10650 1400 50  0001 C CNN
 F 3 "" H 10650 1400 50  0000 C CNN
 	1    10650 1400
 	1    0    0    -1  
@@ -622,7 +602,7 @@ U 1 1 5F5D7903
 P 6600 2100
 F 0 "SW6" H 6600 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 6600 2264 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 6600 2100 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 6600 2100 50  0001 C CNN
 F 3 "" H 6600 2100 50  0000 C CNN
 	1    6600 2100
 	1    0    0    -1  
@@ -644,7 +624,7 @@ U 1 1 5F5D856F
 P 7450 2100
 F 0 "SW7" H 7450 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 7450 2264 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 7450 2100 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 7450 2100 50  0001 C CNN
 F 3 "" H 7450 2100 50  0000 C CNN
 	1    7450 2100
 	1    0    0    -1  
@@ -666,7 +646,7 @@ U 1 1 5F5D8D10
 P 8250 2100
 F 0 "SW8" H 8250 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 8250 2264 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 8250 2100 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 8250 2100 50  0001 C CNN
 F 3 "" H 8250 2100 50  0000 C CNN
 	1    8250 2100
 	1    0    0    -1  
@@ -688,7 +668,7 @@ U 1 1 5F5D95B6
 P 9050 2100
 F 0 "SW9" H 9050 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 9050 2264 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9050 2100 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9050 2100 50  0001 C CNN
 F 3 "" H 9050 2100 50  0000 C CNN
 	1    9050 2100
 	1    0    0    -1  
@@ -710,7 +690,7 @@ U 1 1 5F5D9E13
 P 9850 2100
 F 0 "SW10" H 9850 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 9850 2264 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9850 2100 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9850 2100 50  0001 C CNN
 F 3 "" H 9850 2100 50  0000 C CNN
 	1    9850 2100
 	1    0    0    -1  
@@ -732,7 +712,7 @@ U 1 1 5F5DB97E
 P 10650 2100
 F 0 "SW11" H 10650 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 10650 2264 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 10650 2100 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 10650 2100 50  0001 C CNN
 F 3 "" H 10650 2100 50  0000 C CNN
 	1    10650 2100
 	1    0    0    -1  
@@ -754,7 +734,7 @@ U 1 1 5F5DC0BA
 P 11450 2100
 F 0 "SW12" H 11450 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 11450 2264 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 11450 2100 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 11450 2100 50  0001 C CNN
 F 3 "" H 11450 2100 50  0000 C CNN
 	1    11450 2100
 	1    0    0    -1  
@@ -829,7 +809,7 @@ U 1 1 5F5F3D5F
 P 6600 2750
 F 0 "SW13" H 6600 3005 50  0000 C CNN
 F 1 "SW_PUSH" H 6600 2914 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 6600 2750 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 6600 2750 50  0001 C CNN
 F 3 "" H 6600 2750 50  0000 C CNN
 	1    6600 2750
 	1    0    0    -1  
@@ -840,7 +820,7 @@ U 1 1 5F5F4155
 P 7450 2750
 F 0 "SW14" H 7450 3005 50  0000 C CNN
 F 1 "SW_PUSH" H 7450 2914 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 7450 2750 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 7450 2750 50  0001 C CNN
 F 3 "" H 7450 2750 50  0000 C CNN
 	1    7450 2750
 	1    0    0    -1  
@@ -851,7 +831,7 @@ U 1 1 5F5F446B
 P 8250 2750
 F 0 "SW15" H 8250 3005 50  0000 C CNN
 F 1 "SW_PUSH" H 8250 2914 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 8250 2750 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 8250 2750 50  0001 C CNN
 F 3 "" H 8250 2750 50  0000 C CNN
 	1    8250 2750
 	1    0    0    -1  
@@ -862,7 +842,7 @@ U 1 1 5F5F485F
 P 9050 2750
 F 0 "SW16" H 9050 3005 50  0000 C CNN
 F 1 "SW_PUSH" H 9050 2914 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9050 2750 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9050 2750 50  0001 C CNN
 F 3 "" H 9050 2750 50  0000 C CNN
 	1    9050 2750
 	1    0    0    -1  
@@ -873,7 +853,7 @@ U 1 1 5F5F4CB1
 P 9850 2750
 F 0 "SW17" H 9850 3005 50  0000 C CNN
 F 1 "SW_PUSH" H 9850 2914 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9850 2750 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9850 2750 50  0001 C CNN
 F 3 "" H 9850 2750 50  0000 C CNN
 	1    9850 2750
 	1    0    0    -1  
@@ -884,7 +864,7 @@ U 1 1 5F5F50F9
 P 10650 2750
 F 0 "SW18" H 10650 3005 50  0000 C CNN
 F 1 "SW_PUSH" H 10650 2914 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 10650 2750 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 10650 2750 50  0001 C CNN
 F 3 "" H 10650 2750 50  0000 C CNN
 	1    10650 2750
 	1    0    0    -1  
@@ -988,7 +968,7 @@ U 1 1 5F5FD739
 P 9850 3400
 F 0 "SW20" H 9850 3655 50  0000 C CNN
 F 1 "SW_PUSH" H 9850 3564 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9850 3400 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9850 3400 50  0001 C CNN
 F 3 "" H 9850 3400 50  0000 C CNN
 	1    9850 3400
 	1    0    0    -1  
@@ -999,7 +979,7 @@ U 1 1 5F5FDB5A
 P 10650 3400
 F 0 "SW21" H 10650 3655 50  0000 C CNN
 F 1 "SW_PUSH" H 10650 3564 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 10650 3400 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 10650 3400 50  0001 C CNN
 F 3 "" H 10650 3400 50  0000 C CNN
 	1    10650 3400
 	1    0    0    -1  
@@ -1010,7 +990,7 @@ U 1 1 5F5FDECC
 P 11450 3400
 F 0 "SW22" H 11450 3655 50  0000 C CNN
 F 1 "SW_PUSH" H 11450 3564 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 11450 3400 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 11450 3400 50  0001 C CNN
 F 3 "" H 11450 3400 50  0000 C CNN
 	1    11450 3400
 	1    0    0    -1  
@@ -1054,7 +1034,7 @@ U 1 1 5F6013A1
 P 10650 4100
 F 0 "SW23" H 10650 4355 50  0000 C CNN
 F 1 "SW_PUSH" H 10650 4264 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 10650 4100 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 10650 4100 50  0001 C CNN
 F 3 "" H 10650 4100 50  0000 C CNN
 	1    10650 4100
 	1    0    0    -1  
@@ -1300,7 +1280,7 @@ U 1 1 5F68C46B
 P 7450 7850
 F 0 "SW46" H 7450 8105 50  0000 C CNN
 F 1 "SW_PUSH" H 7450 8014 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 7450 7850 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 7450 7850 50  0001 C CNN
 F 3 "" H 7450 7850 50  0000 C CNN
 	1    7450 7850
 	1    0    0    -1  
@@ -1349,7 +1329,7 @@ U 1 1 5F686113
 P 8250 7200
 F 0 "SW45" H 8250 7455 50  0000 C CNN
 F 1 "SW_PUSH" H 8250 7364 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 8250 7200 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 8250 7200 50  0001 C CNN
 F 3 "" H 8250 7200 50  0000 C CNN
 	1    8250 7200
 	1    0    0    -1  
@@ -1360,7 +1340,7 @@ U 1 1 5F685D24
 P 7450 7200
 F 0 "SW44" H 7450 7455 50  0000 C CNN
 F 1 "SW_PUSH" H 7450 7364 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 7450 7200 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 7450 7200 50  0001 C CNN
 F 3 "" H 7450 7200 50  0000 C CNN
 	1    7450 7200
 	1    0    0    -1  
@@ -1371,7 +1351,7 @@ U 1 1 5F685647
 P 6600 7200
 F 0 "SW43" H 6600 7455 50  0000 C CNN
 F 1 "SW_PUSH" H 6600 7364 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 6600 7200 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 6600 7200 50  0001 C CNN
 F 3 "" H 6600 7200 50  0000 C CNN
 	1    6600 7200
 	1    0    0    -1  
@@ -1481,7 +1461,7 @@ U 1 1 5F67A585
 P 11450 6550
 F 0 "SW42" H 11450 6805 50  0000 C CNN
 F 1 "SW_PUSH" H 11450 6714 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 11450 6550 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 11450 6550 50  0001 C CNN
 F 3 "" H 11450 6550 50  0000 C CNN
 	1    11450 6550
 	1    0    0    -1  
@@ -1492,7 +1472,7 @@ U 1 1 5F67A112
 P 10650 6550
 F 0 "SW41" H 10650 6805 50  0000 C CNN
 F 1 "SW_PUSH" H 10650 6714 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 10650 6550 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 10650 6550 50  0001 C CNN
 F 3 "" H 10650 6550 50  0000 C CNN
 	1    10650 6550
 	1    0    0    -1  
@@ -1503,7 +1483,7 @@ U 1 1 5F679C55
 P 9850 6550
 F 0 "SW40" H 9850 6805 50  0000 C CNN
 F 1 "SW_PUSH" H 9850 6714 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9850 6550 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9850 6550 50  0001 C CNN
 F 3 "" H 9850 6550 50  0000 C CNN
 	1    9850 6550
 	1    0    0    -1  
@@ -1514,7 +1494,7 @@ U 1 1 5F6797C3
 P 9050 6550
 F 0 "SW39" H 9050 6805 50  0000 C CNN
 F 1 "SW_PUSH" H 9050 6714 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9050 6550 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9050 6550 50  0001 C CNN
 F 3 "" H 9050 6550 50  0000 C CNN
 	1    9050 6550
 	1    0    0    -1  
@@ -1525,7 +1505,7 @@ U 1 1 5F6793B1
 P 8250 6550
 F 0 "SW38" H 8250 6805 50  0000 C CNN
 F 1 "SW_PUSH" H 8250 6714 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 8250 6550 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 8250 6550 50  0001 C CNN
 F 3 "" H 8250 6550 50  0000 C CNN
 	1    8250 6550
 	1    0    0    -1  
@@ -1536,7 +1516,7 @@ U 1 1 5F678F73
 P 7450 6550
 F 0 "SW37" H 7450 6805 50  0000 C CNN
 F 1 "SW_PUSH" H 7450 6714 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 7450 6550 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 7450 6550 50  0001 C CNN
 F 3 "" H 7450 6550 50  0000 C CNN
 	1    7450 6550
 	1    0    0    -1  
@@ -1658,7 +1638,7 @@ U 1 1 5F653360
 P 11450 5900
 F 0 "SW35" H 11450 6155 50  0000 C CNN
 F 1 "SW_PUSH" H 11450 6064 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 11450 5900 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 11450 5900 50  0001 C CNN
 F 3 "" H 11450 5900 50  0000 C CNN
 	1    11450 5900
 	1    0    0    -1  
@@ -1669,7 +1649,7 @@ U 1 1 5F652E0C
 P 10650 5900
 F 0 "SW34" H 10650 6155 50  0000 C CNN
 F 1 "SW_PUSH" H 10650 6064 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 10650 5900 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 10650 5900 50  0001 C CNN
 F 3 "" H 10650 5900 50  0000 C CNN
 	1    10650 5900
 	1    0    0    -1  
@@ -1680,7 +1660,7 @@ U 1 1 5F6528E6
 P 9850 5900
 F 0 "SW33" H 9850 6155 50  0000 C CNN
 F 1 "SW_PUSH" H 9850 6064 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9850 5900 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9850 5900 50  0001 C CNN
 F 3 "" H 9850 5900 50  0000 C CNN
 	1    9850 5900
 	1    0    0    -1  
@@ -1691,7 +1671,7 @@ U 1 1 5F65245C
 P 9050 5900
 F 0 "SW32" H 9050 6155 50  0000 C CNN
 F 1 "SW_PUSH" H 9050 6064 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9050 5900 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9050 5900 50  0001 C CNN
 F 3 "" H 9050 5900 50  0000 C CNN
 	1    9050 5900
 	1    0    0    -1  
@@ -1702,7 +1682,7 @@ U 1 1 5F651F57
 P 8250 5900
 F 0 "SW31" H 8250 6155 50  0000 C CNN
 F 1 "SW_PUSH" H 8250 6064 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 8250 5900 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 8250 5900 50  0001 C CNN
 F 3 "" H 8250 5900 50  0000 C CNN
 	1    8250 5900
 	1    0    0    -1  
@@ -1713,7 +1693,7 @@ U 1 1 5F651BB2
 P 7450 5900
 F 0 "SW30" H 7450 6155 50  0000 C CNN
 F 1 "SW_PUSH" H 7450 6064 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 7450 5900 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 7450 5900 50  0001 C CNN
 F 3 "" H 7450 5900 50  0000 C CNN
 	1    7450 5900
 	1    0    0    -1  
@@ -1724,7 +1704,7 @@ U 1 1 5F651603
 P 6600 5900
 F 0 "SW29" H 6600 6155 50  0000 C CNN
 F 1 "SW_PUSH" H 6600 6064 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 6600 5900 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 6600 5900 50  0001 C CNN
 F 3 "" H 6600 5900 50  0000 C CNN
 	1    6600 5900
 	1    0    0    -1  
@@ -1804,7 +1784,7 @@ U 1 1 5F62D006
 P 10650 5250
 F 0 "SW28" H 10650 5505 50  0000 C CNN
 F 1 "SW_PUSH" H 10650 5414 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 10650 5250 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 10650 5250 50  0001 C CNN
 F 3 "" H 10650 5250 50  0000 C CNN
 	1    10650 5250
 	1    0    0    -1  
@@ -1815,7 +1795,7 @@ U 1 1 5F62C98B
 P 9850 5250
 F 0 "SW27" H 9850 5505 50  0000 C CNN
 F 1 "SW_PUSH" H 9850 5414 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9850 5250 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9850 5250 50  0001 C CNN
 F 3 "" H 9850 5250 50  0000 C CNN
 	1    9850 5250
 	1    0    0    -1  
@@ -1826,7 +1806,7 @@ U 1 1 5F62C423
 P 9050 5250
 F 0 "SW26" H 9050 5505 50  0000 C CNN
 F 1 "SW_PUSH" H 9050 5414 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 9050 5250 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 9050 5250 50  0001 C CNN
 F 3 "" H 9050 5250 50  0000 C CNN
 	1    9050 5250
 	1    0    0    -1  
@@ -1837,7 +1817,7 @@ U 1 1 5F62BD0C
 P 8250 5250
 F 0 "SW25" H 8250 5505 50  0000 C CNN
 F 1 "SW_PUSH" H 8250 5414 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 8250 5250 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 8250 5250 50  0001 C CNN
 F 3 "" H 8250 5250 50  0000 C CNN
 	1    8250 5250
 	1    0    0    -1  
@@ -1848,7 +1828,7 @@ U 1 1 5F626DF7
 P 7450 5250
 F 0 "SW24" H 7450 5505 50  0000 C CNN
 F 1 "SW_PUSH" H 7450 5414 50  0000 C CNN
-F 2 "ai03-kbd-MX:MXOnly-1U-Hotswap-Antishear" H 7450 5250 50  0001 C CNN
+F 2 "1m38_kbd:MXOnly-1U-Hotswap-Antishear-mod" H 7450 5250 50  0001 C CNN
 F 3 "" H 7450 5250 50  0000 C CNN
 	1    7450 5250
 	1    0    0    -1  
@@ -2292,10 +2272,6 @@ NoConn ~ 9750 8650
 NoConn ~ 9000 8650
 NoConn ~ 8250 8650
 NoConn ~ 7500 8650
-Text GLabel 4650 1300 2    50   Input ~ 0
-ROWL0
-Wire Wire Line
-	4550 1300 4650 1300
 Connection ~ 3950 4600
 Wire Wire Line
 	3850 4600 3950 4600
@@ -2328,12 +2304,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    3950 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 4650 1400 2    50   Input ~ 0
-ROWL1
-Text GLabel 4650 1500 2    50   Input ~ 0
-ROWL2
-Text GLabel 4650 1600 2    50   Input ~ 0
-ROWL3
 Wire Wire Line
 	4550 1400 4600 1400
 Wire Wire Line
@@ -2343,55 +2313,38 @@ Wire Wire Line
 Wire Wire Line
 	4600 1400 4600 1450
 Wire Wire Line
-	4600 1450 5050 1450
-Connection ~ 4600 1400
-Wire Wire Line
-	4600 1400 4650 1400
-Wire Wire Line
 	4600 1500 4600 1550
 Wire Wire Line
-	4600 1550 5050 1550
-Connection ~ 4600 1500
-Wire Wire Line
-	4600 1500 4650 1500
-Wire Wire Line
 	4600 1600 4600 1650
-Wire Wire Line
-	4600 1650 5050 1650
-Connection ~ 4600 1600
-Wire Wire Line
-	4600 1600 4650 1600
-Text GLabel 4550 1700 2    50   Input ~ 0
-ROWR0
-Text GLabel 4550 3200 2    50   Input ~ 0
+Text GLabel 5300 5050 2    50   Input ~ 0
 ROWR1
-Text GLabel 4550 3100 2    50   Input ~ 0
+Text GLabel 5300 5200 2    50   Input ~ 0
 ROWR2
-Text GLabel 4550 2900 2    50   Input ~ 0
+Text GLabel 5300 5350 2    50   Input ~ 0
 ROWR3
-Text GLabel 4550 4000 2    50   Input ~ 0
+Text GLabel 4750 4600 2    50   Input ~ 0
 COL0
-Text GLabel 4550 4100 2    50   Input ~ 0
+Text GLabel 4750 4750 2    50   Input ~ 0
 COL1
-Text GLabel 4550 4200 2    50   Input ~ 0
+Text GLabel 4750 4900 2    50   Input ~ 0
 COL2
-Text GLabel 4550 2300 2    50   Input ~ 0
+Text GLabel 4750 5050 2    50   Input ~ 0
 COL3
-Text GLabel 4550 2200 2    50   Input ~ 0
+Text GLabel 4750 5200 2    50   Input ~ 0
 COL4
-Text GLabel 4550 1900 2    50   Input ~ 0
+Text GLabel 4750 5350 2    50   Input ~ 0
 COL5
-Text GLabel 4550 1800 2    50   Input ~ 0
+Text GLabel 4750 5500 2    50   Input ~ 0
 COL6
-Text GLabel 4550 2700 2    50   Input ~ 0
+Text GLabel 4750 6000 2    50   Input ~ 0
 ENCR1
-Text GLabel 4550 2800 2    50   Input ~ 0
+Text GLabel 4750 6150 2    50   Input ~ 0
 ENCR2
-Text GLabel 4550 3900 2    50   Input ~ 0
+Text GLabel 4750 5700 2    50   Input ~ 0
 ENCL1
-Text GLabel 4550 3800 2    50   Input ~ 0
+Text GLabel 4750 5850 2    50   Input ~ 0
 ENCL2
-Text GLabel 4550 3500 2    50   Input ~ 0
+Text GLabel 4750 4450 2    50   Input ~ 0
 LED
 NoConn ~ 4550 2000
 NoConn ~ 4550 3000
@@ -2564,61 +2517,20 @@ Connection ~ 11150 2600
 Wire Wire Line
 	11150 2600 11150 3400
 $Comp
-L foostan_kbd:MJ-4PP-9 J6
+L foostan_kbd:MJ-4PP-9 J5
 U 1 1 60A4AE0C
 P 1300 10325
-F 0 "J6" H 1331 10601 50  0000 C CNN
+F 0 "J5" H 1331 10601 50  0000 C CNN
 F 1 "TRRS_I2C" H 1331 10510 50  0000 C CNN
 F 2 "1m38_kbd:MJ-4PP-9_1side_backside-mask" H 1575 10500 50  0001 C CNN
 F 3 "~" H 1575 10500 50  0001 C CNN
 	1    1300 10325
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J5
-U 1 1 5F59F101
-P 2800 8700
-F 0 "J5" V 2850 8400 50  0000 R CNN
-F 1 "GLOVE_I2C" V 2750 8400 50  0000 R CNN
-F 2 "1m38_kbd:Grove_I2C" H 2800 8700 50  0001 C CNN
-F 3 "~" H 2800 8700 50  0001 C CNN
-	1    2800 8700
-	0    -1   -1   0   
-$EndComp
-Text GLabel 2900 8900 3    50   Input ~ 0
+Text GLabel 2800 8900 3    50   Input ~ 0
 SCL
-Text GLabel 3000 8900 3    50   Input ~ 0
+Text GLabel 2700 8900 3    50   Input ~ 0
 SDA
-$Comp
-L power:GND #PWR0104
-U 1 1 5F59F79B
-P 2700 9000
-F 0 "#PWR0104" H 2700 8750 50  0001 C CNN
-F 1 "GND" H 2705 8827 50  0000 C CNN
-F 2 "" H 2700 9000 50  0001 C CNN
-F 3 "" H 2700 9000 50  0001 C CNN
-	1    2700 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0103
-U 1 1 5F59FB48
-P 2500 8850
-F 0 "#PWR0103" H 2500 8700 50  0001 C CNN
-F 1 "VCC" H 2515 9023 50  0000 C CNN
-F 2 "" H 2500 8850 50  0001 C CNN
-F 3 "" H 2500 8850 50  0001 C CNN
-	1    2500 8850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 8850 2500 8950
-Wire Wire Line
-	2500 8950 2800 8950
-Wire Wire Line
-	2800 8950 2800 8900
-Wire Wire Line
-	2700 8900 2700 9000
 Text GLabel 1900 9100 2    50   Input ~ 0
 RESET
 Text GLabel 1900 9000 2    50   Input ~ 0
@@ -2639,61 +2551,16 @@ F 3 "" H 1400 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AVR-ISP-6 J4
+L Connector:AVR-ISP-6 J3
 U 1 1 5F784B6C
 P 1500 9000
-F 0 "J4" H 1171 9096 50  0000 R CNN
+F 0 "J3" H 1171 9096 50  0000 R CNN
 F 1 "AVR-ISP-6" H 1171 9005 50  0000 R CNN
 F 2 "1m38_kbd:ICSP-Header-ZigZag-Single" V 1250 9050 50  0001 C CNN
 F 3 " ~" H 225 8450 50  0001 C CNN
 	1    1500 9000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J3
-U 1 1 5F706CA8
-P 2900 7250
-F 0 "J3" V 2864 7062 50  0000 R CNN
-F 1 "Conn_LED" V 2773 7062 50  0000 R CNN
-F 2 "foostan-kbd:StripLED_1side" H 2900 7250 50  0001 C CNN
-F 3 "~" H 2900 7250 50  0001 C CNN
-	1    2900 7250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR017
-U 1 1 5F7080BE
-P 2600 7450
-F 0 "#PWR017" H 2600 7300 50  0001 C CNN
-F 1 "VCC" H 2615 7623 50  0000 C CNN
-F 2 "" H 2600 7450 50  0001 C CNN
-F 3 "" H 2600 7450 50  0001 C CNN
-	1    2600 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 7450 2600 7500
-Wire Wire Line
-	2600 7500 2800 7500
-Wire Wire Line
-	2800 7500 2800 7450
-$Comp
-L power:GND #PWR018
-U 1 1 5F725759
-P 3050 7500
-F 0 "#PWR018" H 3050 7250 50  0001 C CNN
-F 1 "GND" H 3055 7327 50  0000 C CNN
-F 2 "" H 3050 7500 50  0001 C CNN
-F 3 "" H 3050 7500 50  0001 C CNN
-	1    3050 7500
-	1    0    0    -1  
-$EndComp
-Text GLabel 2900 7450 3    50   Input ~ 0
-LED
-Wire Wire Line
-	3000 7450 3000 7500
-Wire Wire Line
-	3000 7500 3050 7500
 $Comp
 L LED:WS2813 LED13
 U 1 1 5F630244
@@ -2764,4 +2631,122 @@ Wire Wire Line
 Connection ~ 14150 8500
 NoConn ~ 14250 8650
 NoConn ~ 15000 8650
+Text GLabel 5300 4900 2    50   Input ~ 0
+ROWR0
+Wire Wire Line
+	4600 1650 5050 1650
+Wire Wire Line
+	4600 1550 5050 1550
+Wire Wire Line
+	4600 1450 5050 1450
+Text GLabel 5300 4550 2    50   Input ~ 0
+ROWL3
+Text GLabel 5300 4400 2    50   Input ~ 0
+ROWL2
+Text GLabel 5300 4250 2    50   Input ~ 0
+ROWL1
+Text GLabel 5300 4100 2    50   Input ~ 0
+ROWL0
+NoConn ~ 4550 1300
+NoConn ~ 4550 1700
+NoConn ~ 4550 1800
+NoConn ~ 4550 1900
+NoConn ~ 4550 2200
+NoConn ~ 4550 2300
+NoConn ~ 4550 2700
+NoConn ~ 4550 2800
+NoConn ~ 4550 2900
+NoConn ~ 4550 3100
+NoConn ~ 4550 3200
+NoConn ~ 4550 3500
+NoConn ~ 4550 3800
+NoConn ~ 4550 3900
+NoConn ~ 4550 4000
+NoConn ~ 4550 4100
+NoConn ~ 4550 4200
+NoConn ~ 5300 4100
+NoConn ~ 5300 4250
+NoConn ~ 5300 4400
+NoConn ~ 5300 4550
+NoConn ~ 5300 4900
+NoConn ~ 5300 5050
+NoConn ~ 5300 5200
+NoConn ~ 5300 5350
+NoConn ~ 4750 4450
+NoConn ~ 4750 4600
+NoConn ~ 4750 4750
+NoConn ~ 4750 4900
+NoConn ~ 4750 5050
+NoConn ~ 4750 5200
+NoConn ~ 4750 5350
+NoConn ~ 4750 5500
+NoConn ~ 4750 5700
+NoConn ~ 4750 5850
+NoConn ~ 4750 6000
+NoConn ~ 4750 6150
+Text Label 1850 2100 0    50   ~ 0
+DUN
+Wire Wire Line
+	2350 2300 2500 2300
+Connection ~ 1750 2300
+Wire Wire Line
+	1750 2350 1750 2300
+Wire Wire Line
+	1750 2250 1750 2300
+$Comp
+L Device:R R4
+U 1 1 5F532C81
+P 2200 2300
+F 0 "R4" V 1993 2300 50  0000 C CNN
+F 1 "22" V 2084 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 2300 50  0001 C CNN
+F 3 "~" H 2200 2300 50  0001 C CNN
+	1    2200 2300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1750 2300 2050 2300
+Text Label 1850 2300 0    50   ~ 0
+DUP
+$Comp
+L power:VCC #PWR0103
+U 1 1 5F59FB48
+P 3200 8900
+F 0 "#PWR0103" H 3200 8750 50  0001 C CNN
+F 1 "VCC" H 3215 9073 50  0000 C CNN
+F 2 "" H 3200 8900 50  0001 C CNN
+F 3 "" H 3200 8900 50  0001 C CNN
+	1    3200 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F59F79B
+P 3000 9000
+F 0 "#PWR0104" H 3000 8750 50  0001 C CNN
+F 1 "GND" H 3005 8827 50  0000 C CNN
+F 2 "" H 3000 9000 50  0001 C CNN
+F 3 "" H 3000 9000 50  0001 C CNN
+	1    3000 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 8900 3000 9000
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5F59F101
+P 2800 8700
+F 0 "J4" V 3000 8400 50  0000 R CNN
+F 1 "GLOVE_I2C" V 2900 8400 50  0000 R CNN
+F 2 "1m38_kbd:Grove_I2C" H 2800 8700 50  0001 C CNN
+F 3 "~" H 2800 8700 50  0001 C CNN
+	1    2800 8700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 8900 2900 8950
+Wire Wire Line
+	2900 8950 3200 8950
+Wire Wire Line
+	3200 8950 3200 8900
 $EndSCHEMATC
