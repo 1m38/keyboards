@@ -41,14 +41,23 @@ switch_corresponds = {
     "SW23": "SW46",
     }
 
-led_corresponts = {
-    "LED1": "LED6",
-    "LED2": "LED5",
-    "LED3": "LED4",
-    "LED11": "LED10",
-    "LED12": "LED9",
-    "LED13": "LED8",
-    "LED14": "LED7",
+led_corresponds = {
+    "LED1": "LED14",
+    "LED2": "LED13",
+    "LED3": "LED12",
+    "LED4": "LED11",
+    "LED5": "LED10",
+    "LED6": "LED9",
+    "LED7": "LED8",
+}
+
+hole_corresponds = {
+    "HOLE1": "HOLE12",
+    "HOLE2": "HOLE11",
+    "HOLE3": "HOLE10",
+    "HOLE4": "HOLE9",
+    "HOLE5": "HOLE8",
+    "HOLE6": "HOLE7",
 }
 
 def print_modules_left_switches():
@@ -248,7 +257,7 @@ def arrange_keys():
 
     #arrange right
     move_right_modules_left_mirror(center, switch_corresponds)
-    move_right_modules_left_mirror(center, led_corresponts)
+    move_right_modules_left_mirror(center, led_corresponds)
 
     arrange_diodes()
 
