@@ -1091,12 +1091,6 @@ Wire Wire Line
 	8450 3700 8450 4400
 Wire Wire Line
 	10350 4100 8750 4100
-Text GLabel 5050 1450 2    50   Input ~ 0
-SCK
-Text GLabel 5050 1550 2    50   Input ~ 0
-MOSI
-Text GLabel 5050 1650 2    50   Input ~ 0
-MISO
 $Comp
 L Device:Rotary_Encoder_Switch SW19
 U 1 1 5F72C74F
@@ -2264,7 +2258,6 @@ NoConn ~ 9750 8650
 NoConn ~ 9000 8650
 NoConn ~ 8250 8650
 NoConn ~ 7500 8650
-Connection ~ 3950 4600
 Wire Wire Line
 	3850 4600 3950 4600
 $Comp
@@ -2284,19 +2277,6 @@ Connection ~ 3950 1000
 Wire Wire Line
 	3850 1000 3950 1000
 Wire Wire Line
-	3950 900  3950 1000
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5F524E5E
-P 3950 2800
-F 0 "U1" H 3100 1350 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 3100 1250 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3950 2800 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3950 2800 50  0001 C CNN
-	1    3950 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4550 1400 4600 1400
 Wire Wire Line
 	4550 1500 4600 1500
@@ -2308,31 +2288,30 @@ Wire Wire Line
 	4600 1500 4600 1550
 Wire Wire Line
 	4600 1600 4600 1650
-Text GLabel 4750 4600 2    50   Input ~ 0
+Text GLabel 4550 2800 2    50   Input ~ 0
 COL0
-Text GLabel 4750 4750 2    50   Input ~ 0
+Text GLabel 4550 3000 2    50   Input ~ 0
 COL1
-Text GLabel 4750 4900 2    50   Input ~ 0
+Text GLabel 4550 2900 2    50   Input ~ 0
 COL2
-Text GLabel 4750 5050 2    50   Input ~ 0
+Text GLabel 4550 3100 2    50   Input ~ 0
 COL3
-Text GLabel 4750 5200 2    50   Input ~ 0
+Text GLabel 4550 3200 2    50   Input ~ 0
 COL4
-Text GLabel 4750 5350 2    50   Input ~ 0
+Text GLabel 4550 1700 2    50   Input ~ 0
 COL5
-Text GLabel 4750 5500 2    50   Input ~ 0
+Text GLabel 4550 1800 2    50   Input ~ 0
 COL6
-Text GLabel 4750 6000 2    50   Input ~ 0
+Text GLabel 4550 3700 2    50   Input ~ 0
 ENCR1
-Text GLabel 4750 6150 2    50   Input ~ 0
+Text GLabel 4550 3800 2    50   Input ~ 0
 ENCR2
-Text GLabel 4750 5700 2    50   Input ~ 0
+Text GLabel 4550 4000 2    50   Input ~ 0
 ENCL1
-Text GLabel 4750 5850 2    50   Input ~ 0
+Text GLabel 4550 3900 2    50   Input ~ 0
 ENCL2
-Text GLabel 4750 4450 2    50   Input ~ 0
+Text GLabel 4550 1900 2    50   Input ~ 0
 LED
-NoConn ~ 4550 3700
 Wire Wire Line
 	1750 1300 1750 1450
 Connection ~ 1750 1450
@@ -2621,33 +2600,7 @@ Wire Wire Line
 	4600 1550 5050 1550
 Wire Wire Line
 	4600 1450 5050 1450
-NoConn ~ 4550 1300
-NoConn ~ 4550 1700
-NoConn ~ 4550 1800
-NoConn ~ 4550 1900
-NoConn ~ 4550 2200
-NoConn ~ 4550 2300
-NoConn ~ 4550 2900
-NoConn ~ 4550 3100
-NoConn ~ 4550 3200
 NoConn ~ 4550 3500
-NoConn ~ 4550 3800
-NoConn ~ 4550 3900
-NoConn ~ 4550 4000
-NoConn ~ 4550 4100
-NoConn ~ 4550 4200
-NoConn ~ 4750 4450
-NoConn ~ 4750 4600
-NoConn ~ 4750 4750
-NoConn ~ 4750 4900
-NoConn ~ 4750 5050
-NoConn ~ 4750 5200
-NoConn ~ 4750 5350
-NoConn ~ 4750 5500
-NoConn ~ 4750 5700
-NoConn ~ 4750 5850
-NoConn ~ 4750 6000
-NoConn ~ 4750 6150
 Text Label 1850 2100 0    50   ~ 0
 DUN
 Wire Wire Line
@@ -2713,34 +2666,53 @@ Wire Wire Line
 	2900 8950 3200 8950
 Wire Wire Line
 	3200 8950 3200 8900
-NoConn ~ 5300 5350
-NoConn ~ 5300 5200
-NoConn ~ 5300 5050
-NoConn ~ 5300 4900
-Text GLabel 5300 4900 2    50   Input ~ 0
+Text GLabel 4650 1600 2    50   Input ~ 0
 ROWR0
-Text GLabel 5300 5350 2    50   Input ~ 0
+Text GLabel 4550 1300 2    50   Input ~ 0
 ROWR3
-Text GLabel 5300 5200 2    50   Input ~ 0
+Text GLabel 4650 1400 2    50   Input ~ 0
 ROWR2
-Text GLabel 5300 5050 2    50   Input ~ 0
+Text GLabel 4650 1500 2    50   Input ~ 0
 ROWR1
-NoConn ~ 4550 2000
-NoConn ~ 4550 2700
-NoConn ~ 4550 2800
-NoConn ~ 5300 4550
-NoConn ~ 5300 4400
-NoConn ~ 5300 4250
-Text GLabel 5300 4250 2    50   Input ~ 0
+Text GLabel 4550 4200 2    50   Input ~ 0
 ROWL1
-Text GLabel 5300 4400 2    50   Input ~ 0
+Text GLabel 4550 2300 2    50   Input ~ 0
 ROWL2
-Text GLabel 5300 4550 2    50   Input ~ 0
+Text GLabel 4550 2200 2    50   Input ~ 0
 ROWL3
-NoConn ~ 5300 4100
 Wire Wire Line
 	6100 7500 6900 7500
-NoConn ~ 4550 3000
-Text GLabel 5300 4100 2    50   Input ~ 0
+Text GLabel 4550 4100 2    50   Input ~ 0
 ROWL0
+Text GLabel 5050 1650 2    50   Input ~ 0
+MISO
+Text GLabel 5050 1550 2    50   Input ~ 0
+MOSI
+Text GLabel 5050 1450 2    50   Input ~ 0
+SCK
+Wire Wire Line
+	4650 1400 4600 1400
+Connection ~ 4600 1400
+Wire Wire Line
+	4650 1500 4600 1500
+Connection ~ 4600 1500
+Wire Wire Line
+	4650 1600 4600 1600
+Connection ~ 4600 1600
+NoConn ~ 4550 2000
+NoConn ~ 4550 2700
+Connection ~ 3950 4600
+Wire Wire Line
+	3950 900  3950 1000
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5F524E5E
+P 3950 2800
+F 0 "U1" H 3100 1350 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 3100 1250 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3950 2800 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3950 2800 50  0001 C CNN
+	1    3950 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
