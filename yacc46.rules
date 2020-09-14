@@ -1,5 +1,5 @@
 
-(rules PCB falx46
+(rules PCB yacc46
   (snap_angle 
     fortyfive_degree
   )
