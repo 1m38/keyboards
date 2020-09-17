@@ -1,4 +1,4 @@
-update=2020/09/15 21:22:18
+update=2020/09/17 17:55:07
 version=1
 last_client=kicad
 [general]
@@ -249,6 +249,17 @@ dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=Power
+Clearance=0.2
+TrackWidth=0.5
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.25
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Receptacle
 Clearance=0.17
 TrackWidth=0.23
