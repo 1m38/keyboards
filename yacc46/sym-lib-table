@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KIPRJMOD}/../KiCad_library/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+  (lib (name foostan_kbd)(type Legacy)(uri ${KIPRJMOD}/../KiCad_library/foostan_kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
+)
