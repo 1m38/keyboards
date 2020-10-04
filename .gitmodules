@@ -1,0 +1,6 @@
+[submodule "KiCad_library/digikey-kicad-library"]
+	path = KiCad_library/digikey-kicad-library
+	url = https://github.com/Digi-Key/digikey-kicad-library
+[submodule "KiCad_library/foostan_kbd"]
+	path = KiCad_library/foostan_kbd
+	url = https://github.com/foostan/kbd
