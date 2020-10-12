@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "yacc46"
 Date ""
-Rev ""
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -333,15 +333,13 @@ $Comp
 L Device:Crystal_GND24 Y1
 U 1 1 5F59CB24
 P 1700 5950
-F 0 "Y1" V 1654 6194 50  0000 L CNN
-F 1 "16MHz" V 1745 6194 50  0000 L CNN
+F 0 "Y1" V 1650 5600 50  0000 L CNN
+F 1 "16MHz" V 1750 5450 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering" H 1700 5950 50  0001 C CNN
 F 3 "~" H 1700 5950 50  0001 C CNN
 	1    1700 5950
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Connection ~ 1700 5800
-Connection ~ 1700 6100
 Wire Wire Line
 	1050 5150 1150 5150
 Wire Wire Line
@@ -350,14 +348,6 @@ Wire Wire Line
 	1850 5450 2000 5450
 Wire Wire Line
 	1450 5150 2000 5150
-Wire Wire Line
-	1450 5800 1700 5800
-Wire Wire Line
-	1450 6100 1700 6100
-Wire Wire Line
-	1700 5800 2000 5800
-Wire Wire Line
-	1700 6100 2000 6100
 Wire Wire Line
 	1050 6300 1500 6300
 Wire Wire Line
@@ -2236,46 +2226,6 @@ F 3 "~" H 1150 900 50  0001 C CNN
 	1    1150 900 
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 60A4B503
-P 1900 10250
-F 0 "#PWR0101" H 1900 10000 50  0001 C CNN
-F 1 "GND" H 1905 10077 50  0000 C CNN
-F 2 "" H 1900 10250 50  0001 C CNN
-F 3 "" H 1900 10250 50  0001 C CNN
-	1    1900 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 10250 1900 10250
-$Comp
-L power:VCC #PWR0102
-U 1 1 60A83F5C
-P 1800 10200
-F 0 "#PWR0102" H 1800 10050 50  0001 C CNN
-F 1 "VCC" H 1815 10373 50  0000 C CNN
-F 2 "" H 1800 10200 50  0001 C CNN
-F 3 "" H 1800 10200 50  0001 C CNN
-	1    1800 10200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 10300 1800 10300
-Wire Wire Line
-	1800 10300 1800 10200
-Text GLabel 1600 10350 2    50   Input ~ 0
-SCL
-Text GLabel 1600 10450 2    50   Input ~ 0
-SDA
-Wire Wire Line
-	1500 10350 1600 10350
-Wire Wire Line
-	1500 10400 1550 10400
-Wire Wire Line
-	1550 10400 1550 10450
-Wire Wire Line
-	1550 10450 1600 10450
 Text GLabel 11150 4900 1    50   Input ~ 0
 COL0
 Text GLabel 10350 4900 1    50   Input ~ 0
@@ -2378,17 +2328,6 @@ Wire Wire Line
 Connection ~ 11150 2600
 Wire Wire Line
 	11150 2600 11150 3400
-$Comp
-L foostan_kbd:MJ-4PP-9 J5
-U 1 1 60A4AE0C
-P 1300 10325
-F 0 "J5" H 1331 10601 50  0000 C CNN
-F 1 "TRRS_I2C" H 1331 10510 50  0000 C CNN
-F 2 "1m38_kbd:MJ-4PP-9_1side_no-mask" H 1575 10500 50  0001 C CNN
-F 3 "~" H 1575 10500 50  0001 C CNN
-	1    1300 10325
-	1    0    0    -1  
-$EndComp
 Text GLabel 2800 8900 3    50   Input ~ 0
 SCL
 Text GLabel 2700 8900 3    50   Input ~ 0
@@ -2752,4 +2691,14 @@ Wire Wire Line
 Connection ~ 2750 2350
 Wire Wire Line
 	2750 2350 2750 2550
+Wire Wire Line
+	1450 5800 1700 5800
+Wire Wire Line
+	1450 6100 1700 6100
+Connection ~ 1700 6100
+Wire Wire Line
+	1700 6100 2000 6100
+Connection ~ 1700 5800
+Wire Wire Line
+	1700 5800 2000 5800
 $EndSCHEMATC
