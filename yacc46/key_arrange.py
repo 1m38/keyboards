@@ -1,3 +1,10 @@
+# usage:
+# ```
+# cd(r"path\to\this\file\dir")
+# import key_arrange
+# key_arrange.arrange_keys()
+# ```
+
 from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
@@ -40,25 +47,6 @@ switch_corresponds = {
     "SW22": "SW43",
     "SW23": "SW46",
     }
-
-led_corresponds = {
-    "LED1": "LED14",
-    "LED2": "LED13",
-    "LED3": "LED12",
-    "LED4": "LED11",
-    "LED5": "LED10",
-    "LED6": "LED9",
-    "LED7": "LED8",
-}
-
-hole_corresponds = {
-    "HOLE1": "HOLE12",
-    "HOLE2": "HOLE11",
-    "HOLE3": "HOLE10",
-    "HOLE4": "HOLE9",
-    "HOLE5": "HOLE8",
-    "HOLE6": "HOLE7",
-}
 
 def print_modules_left_switches():
     for r in switch_refs["left"]:
@@ -120,12 +108,14 @@ class SwitchPosition(MyPosition):
     U_mm = 19.05
     def __init__(self, x, y, angle_deg):
         super(SwitchPosition, self).__init__(x, y)
-        self.set_angle(angle_deg)
+        self._set_angle(angle_deg)
 
-    def set_angle(self, angle_deg):
+    def _set_angle(self, angle_deg):
         self.angle_deg = angle_deg
         self.angle_rad = math.radians(angle_deg)
-        return self
+
+    def change_angle(self, angle_deg):
+        return SwitchPosition(self.x, self.y, angle_deg)
 
     def right(self, u):
         return SwitchPosition(
@@ -173,29 +163,25 @@ def arrange_left():
     SP = SwitchPosition
     # base_pos: SW14
     base_pos = P(52.8, 51.575)
-    sw_pos_u = {}
-    # col1
-    sw_pos_u.update({
+    sw_pos_u = {
+        # col 1
         "SW1": SP(0, 0, 0),
         "SW7": SP(0, 1, 0),
-        "SW14": SP(0, 2, 0)
-    })
-
-    # col0
-    sw_pos_u.update({
+        "SW14": SP(0, 2, 0),
+        # col0
         "SW6": SP(-1, 0.75, 0),
         "SW13": SP(-1, 1.75, 0)
-    })
+    }
 
     # col2
     col2_orientation = 6
-    sw_pos_u["SW15"] = sw_pos_u["SW14"].right(0.5).set_angle(col2_orientation).right(0.5).up(0.5)
+    sw_pos_u["SW15"] = sw_pos_u["SW14"].right(0.5).change_angle(col2_orientation).right(0.5).up(0.5)
     sw_pos_u["SW8"] = sw_pos_u["SW15"].up(1)
     sw_pos_u["SW2"] = sw_pos_u["SW8"].up(1)
 
     # col3
     col3_orientation = 10
-    sw_pos_u["SW16"] = sw_pos_u["SW15"].right(0.5).set_angle(col3_orientation).right(0.5).up(0.5)
+    sw_pos_u["SW16"] = sw_pos_u["SW15"].right(0.5).change_angle(col3_orientation).right(0.5).up(0.5)
     sw_pos_u["SW9"] = sw_pos_u["SW16"].up(1)
     sw_pos_u["SW3"] = sw_pos_u["SW9"].up(1)
 
@@ -214,9 +200,9 @@ def arrange_left():
     sw_pos_u["SW19"] = sw_pos_u["SW12"].up(-1)
 
     # thumb
-    sw_pos_u["SW21"] = sw_pos_u["SW18"].right(-0.5).up(-0.5).set_angle(18).right(0.5).up(-0.5)
-    sw_pos_u["SW20"] = sw_pos_u["SW21"].right(-0.5).up(-0.5).set_angle(10).right(-0.5).up(0.5)
-    sw_pos_u["SW22"] = sw_pos_u["SW21"].right(0.5).up(-0.5).set_angle(26).right(0.5).up(0.5)
+    sw_pos_u["SW21"] = sw_pos_u["SW18"].right(-0.5).up(-0.5).change_angle(18).right(0.5).up(-0.5)
+    sw_pos_u["SW20"] = sw_pos_u["SW21"].right(-0.5).up(-0.5).change_angle(10).right(-0.5).up(0.5)
+    sw_pos_u["SW22"] = sw_pos_u["SW21"].right(0.5).up(-0.5).change_angle(26).right(0.5).up(0.5)
     sw_pos_u["SW23"] = sw_pos_u["SW21"].up(-1)
 
     # u -> mm
@@ -243,6 +229,57 @@ def arrange_diodes():
         d.SetPosition(pcbnew.wxPointMM(d_pos.x, d_pos.y))
         d.SetOrientationDegrees(90 - angle)
 
+def arrange_leds(center):
+    led_corresponds = {
+        "LED1": "LED14",
+        "LED2": "LED13",
+        "LED3": "LED12",
+        "LED4": "LED11",
+        "LED5": "LED10",
+        "LED6": "LED9",
+        "LED7": "LED8",
+    }
+    led_positions = {
+        "LED1": MyPosition(135.31, 121.41),
+        "LED2": MyPosition(109.07, 91.26),
+        "LED3": MyPosition(72.47, 89.54),
+        "LED4": MyPosition(47.32, 78.95),
+        "LED5": MyPosition(66.83, 48.97),
+        "LED6": MyPosition(90.95, 41.49),
+        "LED7": MyPosition(138.18, 38.9)
+    }
+
+    for ref, pos in led_positions.items():
+        led = pcb.FindModuleByReference(ref)
+        led.SetPosition(pcbnew.wxPointMM(pos.x, pos.y))
+    move_right_modules_left_mirror(center, led_corresponds)
+
+def arrange_holes(center):
+    hole_corresponds = {
+        "HOLE1": "HOLE12",
+        "HOLE2": "HOLE11",
+        "HOLE3": "HOLE10",
+        "HOLE4": "HOLE9",
+        "HOLE5": "HOLE8",
+        "HOLE6": "HOLE7",
+        "HOLE14": "HOLE15",
+    }
+    hole_positions = {
+        "HOLE1": MyPosition(131.98, 133.12),
+        "HOLE2": MyPosition(84.62, 100.61),
+        "HOLE3": MyPosition(42.64, 94.9),
+        "HOLE4": MyPosition(39.76, 43.68),
+        "HOLE5": MyPosition(86.34, 32.08),
+        "HOLE6": MyPosition(141.99, 31.84),
+        "HOLE13": MyPosition(center, 88.19),
+        "HOLE14": MyPosition(152.0, 60.1),
+    }
+
+    for ref, pos in hole_positions.items():
+        hole = pcb.FindModuleByReference(ref)
+        hole.SetPosition(pcbnew.wxPointMM(pos.x, pos.y))
+    move_right_modules_left_mirror(center, hole_corresponds)
+
 def arrange_keys():
     HandsGap_mm = 5
 
@@ -252,14 +289,15 @@ def arrange_keys():
     tmp_pos = pcbnew.ToMM(sw12.GetPosition())
     sw12_pos = MyPosition(tmp_pos[0], tmp_pos[1])
     left_rightcorner = sw12_pos + SwitchPosition(0, 0, -sw12.GetOrientationDegrees()).right(0.5).up(0.5).to_mm()
-    center = left_rightcorner.x + HandsGap_mm / 2.0
+    center = math.ceil(left_rightcorner.x + HandsGap_mm / 2.0)
     print("center: {}".format(center))
 
     #arrange right
     move_right_modules_left_mirror(center, switch_corresponds)
-    move_right_modules_left_mirror(center, led_corresponds)
 
     arrange_diodes()
+    arrange_leds(center)
+    arrange_holes(center)
 
 
 
