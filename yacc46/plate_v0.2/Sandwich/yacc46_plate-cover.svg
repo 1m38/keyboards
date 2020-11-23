@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="297mm"
    height="210mm"
    viewBox="0 0 297 210"
    version="1.1"
-   id="svg8">
+   id="svg8"
+   sodipodi:docname="yacc46_plate-cover.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1918"
+     inkscape:window-height="1028"
+     id="namedview2975"
+     showgrid="false"
+     inkscape:zoom="0.63206019"
+     inkscape:cx="452.91462"
+     inkscape:cy="444.30133"
+     inkscape:window-x="1913"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
   <defs
      id="defs2" />
   <metadata
@@ -20,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -10263,301 +10287,301 @@
   </g>
   <g
      id="g13757"
-     style="display:inline">
+     style="display:inline;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">
     <g
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11699"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:-0.000393701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11701"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11703"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11705"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11707"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11709"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11711"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11713"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11715"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11717"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11719"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11721"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11723"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11725"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11727"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11729"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11731"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11733"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11735"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11737"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11739"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11741"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11743"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11745"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11747"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11749"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11751"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11753"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11755"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11757"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11759"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11761"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11763"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11765"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11767"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11769"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11771"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11773"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11775"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11777"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11779"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11781"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11783"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11785"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11787"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11789"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11791"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11793"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11795"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11797"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11799"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11801"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11803"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11805"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11807"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11809"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11811"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11813"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11815"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11817"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11819"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11821"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11823"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11825"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11827"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11829"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11831"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11833"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11835"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11837"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11839"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#c2c200;fill-opacity:0;stroke:#c2c200;stroke-width:59.0551;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#c2c200;fill-opacity:0;stroke:#c2c200;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11841"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:47.2441;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11843"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <g
-       style="fill:#c2c200;fill-opacity:0;stroke:#c2c200;stroke-width:47.2441;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#c2c200;fill-opacity:0;stroke:#c2c200;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g11845"
        transform="matrix(0.00254,0,0,0.00254,-4.3754643,-10.161827)" />
     <circle
@@ -10565,447 +10589,447 @@
        cy="41.622654"
        r="1.1000004"
        id="circle11847"
-       style="fill:#c2c200;fill-opacity:0;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:#c2c200;fill-opacity:0;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
     <circle
        cx="132.88341"
        cy="41.622654"
        r="1.1000004"
        id="circle11849"
-       style="fill:#c2c200;fill-opacity:0;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:#c2c200;fill-opacity:0;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
     <g
-       style="fill:#c2c200;fill-opacity:0;stroke:#000000;stroke-width:78.7402;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#c2c200;fill-opacity:0;stroke:#000000;stroke-width:39.37007927;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="g13755"
        transform="matrix(0.00254,0,0,0.00254,-19.116536,-18.477303)">
       <path
          id="path13125"
-         style="stroke:#000000;stroke-opacity:1"
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 71440,11195 v 12848 a 1000,1000 135 0 1 -1000,1000 H 59480 A 1000,1000 45 0 1 58480,24043 V 11195 a 1000,1000 135 0 1 1000,-1000 h 10960 a 1000,1000 45 0 1 1000,1000 z" />
       <g
          id="g13471"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13473"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13475"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13477"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13479"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13481"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13483"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13485"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13487"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13489"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13491"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13493"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13495"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13497"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13499"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13501"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13503"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13505"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13507"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13509"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13511"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13513"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13515"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13517"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13519"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13521"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13523"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13525"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13527"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13529"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13531"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13533"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13535"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13537"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13539"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13541"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13543"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13545"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13547"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13549"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13551"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13553"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13555"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13557"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13559"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13561"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13563"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13565"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13567"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13569"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13571"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13573"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13575"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13577"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13579"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13581"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13583"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13585"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13587"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13589"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13591"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13593"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13595"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13597"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13599"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13601"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13603"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13605"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13607"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13609"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13611"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13613"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13615"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13617"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13619"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13621"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13623"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13625"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13627"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13629"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13631"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13633"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13635"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13637"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13639"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13641"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13643"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13645"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13647"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13649"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13651"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13653"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13655"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13657"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13659"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13661"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13663"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13665"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13667"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13669"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13671"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13673"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13675"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13677"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13679"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13681"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13683"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13685"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13687"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13689"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13691"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13693"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13695"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13697"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13699"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13701"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13703"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13705"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13707"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13709"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13711"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13713"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13715"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13717"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13719"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13721"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13723"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13725"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13727"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13729"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13731"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13733"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13735"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13737"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13739"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13741"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13743"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13745"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13747"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13749"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13751"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="g13753"
-         style="stroke:#000000;stroke-opacity:1" />
+         style="stroke:#000000;stroke-opacity:1;stroke-width:39.37007927;stroke-miterlimit:4;stroke-dasharray:none" />
     </g>
   </g>
 </svg>
