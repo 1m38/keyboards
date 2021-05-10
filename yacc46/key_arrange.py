@@ -14,6 +14,12 @@ import math
 
 pcb = pcbnew.GetBoard()
 
+def FindModuleByReference(ref):
+    module = pcb.FindModuleByReference(ref)
+    if module is None:
+        raise ValueError("ref {} not found".format(ref))
+    return module
+
 switch_refs = {
     "left": ["SW"+str(i) for i in range(1,23+1)],
     "right": ["SW"+str(i) for i in range(24,46+1)]
@@ -50,20 +56,20 @@ switch_corresponds = {
 
 def print_modules_left_switches():
     for r in switch_refs["left"]:
-        m = pcb.FindModuleByReference(r)
+        m = FindModuleByReference(r)
         print("ref:", m.GetReference(), ", pos:", m.GetPosition(), ", pos[mm]:", pcbnew.ToMM(m.GetPosition()))
 
 def move_left_switches_origin():
     for r in switch_refs["left"]:
-        m = pcb.FindModuleByReference(r)
+        m = FindModuleByReference(r)
         print("ref:", m.GetReference(), ", pos:", m.GetPosition())
         m.SetPosition(pcbnew.wxPointMM(0, 0))
         m.SetOrientationDegrees(0)
 
 def move_right_modules_left_mirror(x_center, module_corresponts):
     for rl, rr in module_corresponts.items():
-        ml = pcb.FindModuleByReference(rl)
-        mr = pcb.FindModuleByReference(rr)
+        ml = FindModuleByReference(rl)
+        mr = FindModuleByReference(rr)
         l_pos = pcbnew.ToMM(ml.GetPosition())
         l_ori = ml.GetOrientationDegrees()
         r_pos = pcbnew.wxPointMM(x_center * 2 - l_pos[0], l_pos[1])
@@ -213,15 +219,15 @@ def arrange_left():
 
     # move
     for r, pos in sw_pos_mm.items():
-        m = pcb.FindModuleByReference(r)
+        m = FindModuleByReference(r)
         m.SetPosition(pcbnew.wxPointMM(pos.x, pos.y))
         m.SetOrientationDegrees(-pos.angle_deg)
 
 def arrange_diodes():
     for i in range(1, 46+1):
         r = "SW" + str(i)
-        sw = pcb.FindModuleByReference("SW" + str(i))
-        d = pcb.FindModuleByReference("D" + str(i))
+        sw = FindModuleByReference("SW" + str(i))
+        d = FindModuleByReference("D" + str(i))
         angle = -sw.GetOrientationDegrees()
         tmp_pos = pcbnew.ToMM(sw.GetPosition())
         sw_pos = MyPosition(tmp_pos[0], tmp_pos[1])
@@ -245,47 +251,48 @@ def arrange_leds(center):
         "LED3": MyPosition(72.47, 89.54),
         "LED4": MyPosition(47.32, 78.95),
         "LED5": MyPosition(66.83, 48.97),
-        "LED6": MyPosition(90.95, 41.49),
-        "LED7": MyPosition(138.18, 38.9)
+        "LED6": MyPosition(93.20, 43.70),
+        "LED7": MyPosition(148.30, 38.70)
     }
 
     for ref, pos in led_positions.items():
-        led = pcb.FindModuleByReference(ref)
+        led = FindModuleByReference(ref)
         led.SetPosition(pcbnew.wxPointMM(pos.x, pos.y))
     move_right_modules_left_mirror(center, led_corresponds)
 
 def arrange_holes(center):
     hole_corresponds = {
-        "HOLE1": "HOLE12",
-        "HOLE2": "HOLE11",
-        "HOLE3": "HOLE10",
-        "HOLE4": "HOLE9",
-        "HOLE5": "HOLE8",
-        "HOLE6": "HOLE7",
-        "HOLE14": "HOLE15",
+        "H1": "H12",
+        "H2": "H11",
+        "H3": "H10",
+        "H4": "H9",
+        "H5": "H8",
+        "H6": "H7",
+        "H13": "H14",
     }
     hole_positions = {
-        "HOLE1": MyPosition(131.98, 133.12),
-        "HOLE2": MyPosition(84.62, 100.61),
-        "HOLE3": MyPosition(42.64, 94.9),
-        "HOLE4": MyPosition(39.76, 43.68),
-        "HOLE5": MyPosition(86.34, 32.08),
-        "HOLE6": MyPosition(141.99, 31.84),
-        "HOLE13": MyPosition(center, 88.19),
-        "HOLE14": MyPosition(152.0, 60.1),
+        "H1": MyPosition(131.98, 133.12),
+        "H2": MyPosition(84.62, 100.61),
+        "H3": MyPosition(42.64, 94.9),
+        "H4": MyPosition(39.76, 43.68),
+        "H5": MyPosition(86.34, 32.08),
+        "H6": MyPosition(141.99, 31.84),
+        "H13": MyPosition(152.0, 60.1),
     }
 
     for ref, pos in hole_positions.items():
-        hole = pcb.FindModuleByReference(ref)
+        hole = FindModuleByReference(ref)
+        if hole is None:
+            raise ValueError("ref {} not found.".format(ref))
         hole.SetPosition(pcbnew.wxPointMM(pos.x, pos.y))
     move_right_modules_left_mirror(center, hole_corresponds)
 
 def arrange_keys():
-    HandsGap_mm = 5
+    HandsGap_mm = 8
 
     arrange_left()
     # decide center
-    sw12 = pcb.FindModuleByReference("SW12")
+    sw12 = FindModuleByReference("SW12")
     tmp_pos = pcbnew.ToMM(sw12.GetPosition())
     sw12_pos = MyPosition(tmp_pos[0], tmp_pos[1])
     left_rightcorner = sw12_pos + SwitchPosition(0, 0, -sw12.GetOrientationDegrees()).right(0.5).up(0.5).to_mm()
