@@ -1778,13 +1778,13 @@ Text GLabel 6350 1700 2    50   Input ~ 0
 COL5
 Text GLabel 6350 1800 2    50   Input ~ 0
 COL6
-Text GLabel 6350 3700 2    50   Input ~ 0
-ENCR1
-Text GLabel 6350 3800 2    50   Input ~ 0
-ENCR2
-Text GLabel 6350 4000 2    50   Input ~ 0
-ENCL1
 Text GLabel 6350 3900 2    50   Input ~ 0
+ENCR1
+Text GLabel 6350 4000 2    50   Input ~ 0
+ENCR2
+Text GLabel 6350 4200 2    50   Input ~ 0
+ENCL1
+Text GLabel 6350 4100 2    50   Input ~ 0
 ENCL2
 Text GLabel 6350 1900 2    50   Input ~ 0
 LED
@@ -1939,10 +1939,10 @@ F 3 "" H 1400 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AVR-ISP-6 J3
+L Connector:AVR-ISP-6 J4
 U 1 1 5F784B6C
 P 1500 9000
-F 0 "J3" H 1171 9096 50  0000 R CNN
+F 0 "J4" H 1171 9096 50  0000 R CNN
 F 1 "AVR-ISP-6" H 1171 9005 50  0000 R CNN
 F 2 "1m38_kbd:ICSP-Header-ZigZag-Single" V 1250 9050 50  0001 C CNN
 F 3 " ~" H 225 8450 50  0001 C CNN
@@ -1955,7 +1955,6 @@ Wire Wire Line
 	6400 1550 6850 1550
 Wire Wire Line
 	6400 1450 6850 1450
-NoConn ~ 6350 3500
 Wire Wire Line
 	3850 4450 3900 4450
 $Comp
@@ -1994,10 +1993,10 @@ $EndComp
 Wire Wire Line
 	3000 8900 3000 9000
 $Comp
-L Connector_Generic:Conn_01x04 J4
+L Connector_Generic:Conn_01x04 J5
 U 1 1 5F59F101
 P 2800 8700
-F 0 "J4" V 3000 8400 50  0000 R CNN
+F 0 "J5" V 3000 8400 50  0000 R CNN
 F 1 "GLOVE_I2C" V 2900 8400 50  0000 R CNN
 F 2 "1m38_kbd:Grove_I2C" H 2800 8700 50  0001 C CNN
 F 3 "~" H 2800 8700 50  0001 C CNN
@@ -2018,7 +2017,7 @@ Text GLabel 6450 1400 2    50   Input ~ 0
 ROWR2
 Text GLabel 6450 1500 2    50   Input ~ 0
 ROWR1
-Text GLabel 6350 4200 2    50   Input ~ 0
+Text GLabel 6600 2700 2    50   Input ~ 0
 ROWL1
 Text GLabel 6350 2300 2    50   Input ~ 0
 ROWL2
@@ -2026,7 +2025,7 @@ Text GLabel 6350 2200 2    50   Input ~ 0
 ROWL3
 Wire Wire Line
 	8200 7500 9000 7500
-Text GLabel 6350 4100 2    50   Input ~ 0
+Text GLabel 6600 2000 2    50   Input ~ 0
 ROWL0
 Text GLabel 6850 1650 2    50   Input ~ 0
 MISO
@@ -2043,8 +2042,6 @@ Connection ~ 6400 1500
 Wire Wire Line
 	6450 1600 6400 1600
 Connection ~ 6400 1600
-NoConn ~ 6350 2000
-NoConn ~ 6350 2700
 Connection ~ 5750 4600
 Wire Wire Line
 	5750 900  5750 1000
@@ -2668,4 +2665,59 @@ Wire Wire Line
 	4700 8650 5050 8650
 Wire Wire Line
 	4550 9500 4550 10050
+$Comp
+L 1m38_kbd:joystick_switch_joycon J3
+U 1 1 609C0DD2
+P 7050 7800
+F 0 "J3" H 7478 7846 50  0000 L CNN
+F 1 "joystick_switch_joycon" H 7478 7755 50  0000 L CNN
+F 2 "" H 6850 7750 50  0001 C CNN
+F 3 "" H 6850 7750 50  0001 C CNN
+	1    7050 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 609C2EA8
+P 6100 7950
+F 0 "#PWR0107" H 6100 7700 50  0001 C CNN
+F 1 "GND" H 6105 7777 50  0000 C CNN
+F 2 "" H 6100 7950 50  0001 C CNN
+F 3 "" H 6100 7950 50  0001 C CNN
+	1    6100 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 609C381E
+P 6100 7500
+F 0 "#PWR0108" H 6100 7350 50  0001 C CNN
+F 1 "VCC" H 6115 7673 50  0000 C CNN
+F 2 "" H 6100 7500 50  0001 C CNN
+F 3 "" H 6100 7500 50  0001 C CNN
+	1    6100 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 7500 6500 7500
+Wire Wire Line
+	6100 7950 6500 7950
+Text GLabel 6350 3700 2    50   Input ~ 0
+JOYSTX
+Text GLabel 6500 8100 0    50   Input ~ 0
+JOYSTX
+Text GLabel 6350 3800 2    50   Input ~ 0
+JOYSTY
+Text GLabel 6500 7650 0    50   Input ~ 0
+JOYSTY
+Wire Wire Line
+	6350 2000 6600 2000
+Wire Wire Line
+	6350 2700 6600 2700
+Text GLabel 6600 3500 2    50   Input ~ 0
+JOYSTBT
+Wire Wire Line
+	6350 3500 6600 3500
+Text GLabel 6500 7800 0    50   Input ~ 0
+JOYSTBT
 $EndSCHEMATC
