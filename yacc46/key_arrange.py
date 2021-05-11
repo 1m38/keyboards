@@ -271,12 +271,12 @@ def arrange_holes(center):
         "H13": "H14",
     }
     hole_positions = {
-        "H1": MyPosition(131.98, 133.12),
-        "H2": MyPosition(84.62, 100.61),
-        "H3": MyPosition(42.64, 94.9),
-        "H4": MyPosition(39.76, 43.68),
-        "H5": MyPosition(86.34, 32.08),
-        "H6": MyPosition(141.99, 31.84),
+        "H1": MyPosition(132.00, 132.95),
+        "H2": MyPosition( 84.40, 102.55),
+        "H3": MyPosition( 42.00,  95.80),
+        "H4": MyPosition( 34.70,  46.25),
+        "H5": MyPosition( 86.25,  30.85),
+        "H6": MyPosition(142.00,  30.90),
         "H13": MyPosition(152.0, 60.1),
     }
 
