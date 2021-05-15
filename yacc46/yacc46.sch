@@ -1764,29 +1764,29 @@ Wire Wire Line
 	6400 1500 6400 1550
 Wire Wire Line
 	6400 1600 6400 1650
-Text GLabel 6350 2800 2    50   Input ~ 0
-COL0
 Text GLabel 6350 3000 2    50   Input ~ 0
-COL1
-Text GLabel 6350 2900 2    50   Input ~ 0
-COL2
-Text GLabel 6350 3100 2    50   Input ~ 0
-COL3
-Text GLabel 6350 3200 2    50   Input ~ 0
-COL4
-Text GLabel 6350 1700 2    50   Input ~ 0
-COL5
-Text GLabel 6350 1800 2    50   Input ~ 0
-COL6
-Text GLabel 6350 3900 2    50   Input ~ 0
-ENCR1
-Text GLabel 6350 4000 2    50   Input ~ 0
-ENCR2
+COL0
 Text GLabel 6350 4200 2    50   Input ~ 0
-ENCL1
+COL1
 Text GLabel 6350 4100 2    50   Input ~ 0
+COL2
+Text GLabel 6450 1400 2    50   Input ~ 0
+COL3
+Text GLabel 6450 1500 2    50   Input ~ 0
+COL4
+Text GLabel 6450 1600 2    50   Input ~ 0
+COL5
+Text GLabel 6350 2000 2    50   Input ~ 0
+COL6
+Text GLabel 6350 3700 2    50   Input ~ 0
+ENCR1
+Text GLabel 6350 3800 2    50   Input ~ 0
+ENCR2
+Text GLabel 6350 1800 2    50   Input ~ 0
+ENCL1
+Text GLabel 6350 1700 2    50   Input ~ 0
 ENCL2
-Text GLabel 6350 1900 2    50   Input ~ 0
+Text GLabel 6350 2700 2    50   Input ~ 0
 LED
 Wire Wire Line
 	1350 3650 1350 3800
@@ -2009,23 +2009,23 @@ Wire Wire Line
 	2900 8950 3200 8950
 Wire Wire Line
 	3200 8950 3200 8900
-Text GLabel 6450 1600 2    50   Input ~ 0
+Text GLabel 6350 4000 2    50   Input ~ 0
 ROWR0
 Text GLabel 6350 1300 2    50   Input ~ 0
 ROWR3
-Text GLabel 6450 1400 2    50   Input ~ 0
+Text GLabel 6350 3500 2    50   Input ~ 0
 ROWR2
-Text GLabel 6450 1500 2    50   Input ~ 0
+Text GLabel 6350 3900 2    50   Input ~ 0
 ROWR1
-Text GLabel 6600 2700 2    50   Input ~ 0
-ROWL1
-Text GLabel 6350 2300 2    50   Input ~ 0
-ROWL2
 Text GLabel 6350 2200 2    50   Input ~ 0
+ROWL1
+Text GLabel 6350 1900 2    50   Input ~ 0
+ROWL2
+Text GLabel 6350 2800 2    50   Input ~ 0
 ROWL3
 Wire Wire Line
 	8200 7500 9000 7500
-Text GLabel 6600 2000 2    50   Input ~ 0
+Text GLabel 6350 2300 2    50   Input ~ 0
 ROWL0
 Text GLabel 6850 1650 2    50   Input ~ 0
 MISO
@@ -2702,22 +2702,16 @@ Wire Wire Line
 	6100 7500 6500 7500
 Wire Wire Line
 	6100 7950 6500 7950
-Text GLabel 6350 3700 2    50   Input ~ 0
+Text GLabel 6350 3100 2    50   Input ~ 0
 JOYSTX
 Text GLabel 6500 8100 0    50   Input ~ 0
 JOYSTX
-Text GLabel 6350 3800 2    50   Input ~ 0
+Text GLabel 6350 2900 2    50   Input ~ 0
 JOYSTY
 Text GLabel 6500 7650 0    50   Input ~ 0
 JOYSTY
-Wire Wire Line
-	6350 2000 6600 2000
-Wire Wire Line
-	6350 2700 6600 2700
-Text GLabel 6600 3500 2    50   Input ~ 0
+Text GLabel 6350 3200 2    50   Input ~ 0
 JOYSTBT
-Wire Wire Line
-	6350 3500 6600 3500
 Text GLabel 6500 7800 0    50   Input ~ 0
 JOYSTBT
 $EndSCHEMATC
