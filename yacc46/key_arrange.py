@@ -181,7 +181,7 @@ def arrange_left():
 
     # col2
     col2_orientation = 6
-    sw_pos_u["SW15"] = sw_pos_u["SW14"].right(0.5).change_angle(col2_orientation).right(0.5).up(0.5)
+    sw_pos_u["SW15"] = sw_pos_u["SW14"].right(0.5).up(0.1).change_angle(col2_orientation).right(0.5).up(0.5)
     sw_pos_u["SW8"] = sw_pos_u["SW15"].up(1)
     sw_pos_u["SW2"] = sw_pos_u["SW8"].up(1)
 
@@ -288,7 +288,7 @@ def arrange_holes(center):
     move_right_modules_left_mirror(center, hole_corresponds)
 
 def arrange_keys():
-    HandsGap_mm = 8
+    HandsGap_mm = 5
 
     arrange_left()
     # decide center
