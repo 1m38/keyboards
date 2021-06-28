@@ -1003,7 +1003,7 @@ U 1 1 5F72C74F
 P 13950 2800
 F 0 "SW19" H 13750 3050 50  0000 L CNN
 F 1 "Rotary_Encoder_Switch" H 13150 3150 50  0000 L CNN
-F 2 "1m38_kbd:RotaryEncoder_Alps_EC11E-and-CherryMX-Single" H 13800 2960 50  0001 C CNN
+F 2 "1m38_kbd:RotaryEncoder_Alps_EC11E-and-CherryMX-Hotswap" H 13800 2960 50  0001 C CNN
 F 3 "~" H 13950 3060 50  0001 C CNN
 	1    13950 2800
 	-1   0    0    1   
@@ -1854,7 +1854,7 @@ U 1 1 5F759478
 P 8750 6500
 F 0 "SW36" H 8750 6250 50  0000 L CNN
 F 1 "Rotary_Encoder_Switch" H 7850 6250 50  0000 L CNN
-F 2 "1m38_kbd:RotaryEncoder_Alps_EC11E-and-CherryMX-Single" H 8600 6660 50  0001 C CNN
+F 2 "1m38_kbd:RotaryEncoder_Alps_EC11E-and-CherryMX-Hotswap" H 8600 6660 50  0001 C CNN
 F 3 "~" H 8750 6760 50  0001 C CNN
 	1    8750 6500
 	1    0    0    -1  
@@ -1939,10 +1939,10 @@ F 3 "" H 1400 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AVR-ISP-6 J4
+L Connector:AVR-ISP-6 J3
 U 1 1 5F784B6C
 P 1500 9000
-F 0 "J4" H 1171 9096 50  0000 R CNN
+F 0 "J3" H 1171 9096 50  0000 R CNN
 F 1 "AVR-ISP-6" H 1171 9005 50  0000 R CNN
 F 2 "1m38_kbd:ICSP-Header-ZigZag-Single" V 1250 9050 50  0001 C CNN
 F 3 " ~" H 225 8450 50  0001 C CNN
@@ -1993,10 +1993,10 @@ $EndComp
 Wire Wire Line
 	3000 8900 3000 9000
 $Comp
-L Connector_Generic:Conn_01x04 J5
+L Connector_Generic:Conn_01x04 J4
 U 1 1 5F59F101
 P 2800 8700
-F 0 "J5" V 3000 8400 50  0000 R CNN
+F 0 "J4" V 3000 8400 50  0000 R CNN
 F 1 "GLOVE_I2C" V 2900 8400 50  0000 R CNN
 F 2 "1m38_kbd:Grove_I2C" H 2800 8700 50  0001 C CNN
 F 3 "~" H 2800 8700 50  0001 C CNN
@@ -2106,10 +2106,10 @@ Connection ~ 1700 5800
 Wire Wire Line
 	1700 5800 2000 5800
 $Comp
-L Power_Protection:PRTR5V0U2X D47
+L Power_Protection:PRTR5V0U2X U2
 U 1 1 60347A24
 P 3250 3950
-F 0 "D47" V 3296 3406 50  0000 R CNN
+F 0 "U2" V 3296 3406 50  0000 R CNN
 F 1 "PRTR5V0U2X" V 3205 3406 50  0000 R CNN
 F 2 "1m38_kbd:PRTR5V0U2X_SOT143B" H 3310 3950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 3310 3950 50  0001 C CNN
@@ -2665,53 +2665,7 @@ Wire Wire Line
 	4700 8650 5050 8650
 Wire Wire Line
 	4550 9500 4550 10050
-$Comp
-L 1m38_kbd:joystick_switch_joycon J3
-U 1 1 609C0DD2
-P 7050 7800
-F 0 "J3" H 7478 7846 50  0000 L CNN
-F 1 "joystick_switch_joycon" H 7478 7755 50  0000 L CNN
-F 2 "1m38_kbd:Molex_FPC_CON_0.5mm_5pin_5051100592" H 6850 7750 50  0001 C CNN
-F 3 "" H 6850 7750 50  0001 C CNN
-	1    7050 7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 609C2EA8
-P 6100 7950
-F 0 "#PWR0107" H 6100 7700 50  0001 C CNN
-F 1 "GND" H 6105 7777 50  0000 C CNN
-F 2 "" H 6100 7950 50  0001 C CNN
-F 3 "" H 6100 7950 50  0001 C CNN
-	1    6100 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0108
-U 1 1 609C381E
-P 6100 7500
-F 0 "#PWR0108" H 6100 7350 50  0001 C CNN
-F 1 "VCC" H 6115 7673 50  0000 C CNN
-F 2 "" H 6100 7500 50  0001 C CNN
-F 3 "" H 6100 7500 50  0001 C CNN
-	1    6100 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 7500 6500 7500
-Wire Wire Line
-	6100 7950 6500 7950
-Text GLabel 6350 3100 2    50   Input ~ 0
-JOYSTX
-Text GLabel 6500 8100 0    50   Input ~ 0
-JOYSTX
-Text GLabel 6350 2900 2    50   Input ~ 0
-JOYSTY
-Text GLabel 6500 7650 0    50   Input ~ 0
-JOYSTY
-Text GLabel 6350 3200 2    50   Input ~ 0
-JOYSTBT
-Text GLabel 6500 7800 0    50   Input ~ 0
-JOYSTBT
+NoConn ~ 6350 2900
+NoConn ~ 6350 3100
+NoConn ~ 6350 3200
 $EndSCHEMATC
