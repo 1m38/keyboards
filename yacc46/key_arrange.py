@@ -246,13 +246,13 @@ def arrange_leds(center):
         "LED7": "LED8",
     }
     led_positions = {
-        "LED1": MyPosition(135.31, 121.41),
-        "LED2": MyPosition(109.07, 91.26),
-        "LED3": MyPosition(72.47, 89.54),
-        "LED4": MyPosition(47.32, 78.95),
-        "LED5": MyPosition(66.83, 48.97),
-        "LED6": MyPosition(93.20, 43.70),
-        "LED7": MyPosition(148.30, 38.70)
+        "LED1": MyPosition(139.55, 124.55),
+        "LED2": MyPosition(107.75, 110.10),
+        "LED3": MyPosition( 75.50,  93.55),
+        "LED4": MyPosition( 33.50,  73.75),
+        "LED5": MyPosition( 60.85,  39.80),
+        "LED6": MyPosition( 92.80,  40.15),
+        "LED7": MyPosition(149.00,  33.30)
     }
 
     for ref, pos in led_positions.items():
@@ -271,13 +271,13 @@ def arrange_holes(center):
         "H13": "H14",
     }
     hole_positions = {
-        "H1": MyPosition(132.00, 132.95),
-        "H2": MyPosition( 84.40, 102.55),
-        "H3": MyPosition( 42.00,  95.80),
-        "H4": MyPosition( 34.70,  46.25),
-        "H5": MyPosition( 86.25,  30.85),
-        "H6": MyPosition(142.00,  30.90),
-        "H13": MyPosition(152.0, 60.1),
+        "H1": MyPosition(132.00, 130.90),
+        "H2": MyPosition( 84.40, 100.50),
+        "H3": MyPosition( 42.65,  94.05),
+        "H4": MyPosition( 34.70,  44.35),
+        "H5": MyPosition( 86.25,  29.55),
+        "H6": MyPosition(140.90,  29.05),
+        "H13": MyPosition(151.40, 57.95),
     }
 
     for ref, pos in hole_positions.items():
