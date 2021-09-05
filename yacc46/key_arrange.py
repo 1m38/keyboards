@@ -181,7 +181,7 @@ def arrange_left():
 
     # col2
     col2_orientation = 6
-    sw_pos_u["SW15"] = sw_pos_u["SW14"].right(0.5).change_angle(col2_orientation).right(0.5).up(0.5)
+    sw_pos_u["SW15"] = sw_pos_u["SW14"].right(0.5).up(0.1).change_angle(col2_orientation).right(0.5).up(0.5)
     sw_pos_u["SW8"] = sw_pos_u["SW15"].up(1)
     sw_pos_u["SW2"] = sw_pos_u["SW8"].up(1)
 
@@ -246,13 +246,13 @@ def arrange_leds(center):
         "LED7": "LED8",
     }
     led_positions = {
-        "LED1": MyPosition(135.31, 121.41),
-        "LED2": MyPosition(109.07, 91.26),
-        "LED3": MyPosition(72.47, 89.54),
+        "LED1": MyPosition(148.30, 36.80),
+        "LED2": MyPosition(93.20, 41.80),
+        "LED3": MyPosition(66.83, 47.07),
         "LED4": MyPosition(47.32, 78.95),
-        "LED5": MyPosition(66.83, 48.97),
-        "LED6": MyPosition(93.20, 43.70),
-        "LED7": MyPosition(148.30, 38.70)
+        "LED5": MyPosition(72.47, 87.64),
+        "LED6": MyPosition(109.07, 89.36),
+        "LED7": MyPosition(135.31, 119.51)
     }
 
     for ref, pos in led_positions.items():
@@ -271,13 +271,13 @@ def arrange_holes(center):
         "H13": "H14",
     }
     hole_positions = {
-        "H1": MyPosition(132.00, 132.95),
-        "H2": MyPosition( 84.40, 102.55),
+        "H1": MyPosition(132.00, 131.05),
+        "H2": MyPosition( 84.40, 100.65),
         "H3": MyPosition( 42.00,  95.80),
         "H4": MyPosition( 34.70,  46.25),
-        "H5": MyPosition( 86.25,  30.85),
-        "H6": MyPosition(142.00,  30.90),
-        "H13": MyPosition(152.0, 60.1),
+        "H5": MyPosition( 86.25,  28.95),
+        "H6": MyPosition(142.00,  29.00),
+        "H13": MyPosition(152.0, 58.2),
     }
 
     for ref, pos in hole_positions.items():
@@ -288,7 +288,7 @@ def arrange_holes(center):
     move_right_modules_left_mirror(center, hole_corresponds)
 
 def arrange_keys():
-    HandsGap_mm = 8
+    HandsGap_mm = 16
 
     arrange_left()
     # decide center
