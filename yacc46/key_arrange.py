@@ -247,12 +247,12 @@ def arrange_leds(center):
     }
     led_positions = {
         "LED1": MyPosition(148.30, 36.80),
-        "LED2": MyPosition(93.20, 41.80),
-        "LED3": MyPosition(66.83, 47.07),
-        "LED4": MyPosition(47.32, 78.95),
-        "LED5": MyPosition(72.47, 87.64),
-        "LED6": MyPosition(109.07, 89.36),
-        "LED7": MyPosition(135.31, 119.51)
+        "LED2": MyPosition(91.60, 40.00),
+        "LED3": MyPosition(58.75, 40.60),
+        "LED4": MyPosition(47.30, 78.95),
+        "LED5": MyPosition(76.20, 93.60),
+        "LED6": MyPosition(109.7, 112.00),
+        "LED7": MyPosition(147.10, 126.70)
     }
 
     for ref, pos in led_positions.items():
@@ -273,7 +273,7 @@ def arrange_holes(center):
     hole_positions = {
         "H1": MyPosition(132.00, 131.05),
         "H2": MyPosition( 84.40, 100.65),
-        "H3": MyPosition( 42.00,  95.80),
+        "H3": MyPosition( 42.00,  95.65),
         "H4": MyPosition( 34.70,  46.25),
         "H5": MyPosition( 86.25,  28.95),
         "H6": MyPosition(142.00,  29.00),
@@ -306,5 +306,6 @@ def arrange_keys():
     arrange_leds(center)
     arrange_holes(center)
 
-
+def main():
+    arrange_keys()
 

@@ -2064,7 +2064,7 @@
   )
 
   (module foostan_kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 612AC649)
-    (at 42 95.8)
+    (at 42 95.65)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /606B04F0)
@@ -2169,7 +2169,7 @@
   )
 
   (module foostan_kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 612AC66C)
-    (at 298 95.8)
+    (at 298 95.65)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (path /606B122A)
@@ -2294,7 +2294,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC6ED)
-    (at 93.2 41.8)
+    (at 91.6 40)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606B6B64)
@@ -2334,7 +2334,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC702)
-    (at 66.83 47.07)
+    (at 58.75 40.6)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606C52E3)
@@ -2374,7 +2374,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC717)
-    (at 47.32 78.95)
+    (at 47.3 78.95)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606C5C44)
@@ -2414,7 +2414,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC72C)
-    (at 72.47 87.64)
+    (at 76.2 93.6)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606C634D)
@@ -2454,7 +2454,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC741)
-    (at 109.07 89.36)
+    (at 109.7 112)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606C6A79)
@@ -2494,7 +2494,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC756)
-    (at 135.31 119.51)
+    (at 147.1 126.7)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606C7001)
@@ -2534,7 +2534,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC76B)
-    (at 204.69 119.51)
+    (at 192.9 126.7)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606C75EF)
@@ -2574,7 +2574,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC780)
-    (at 230.93 89.36)
+    (at 230.3 112)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606C7EB9)
@@ -2614,7 +2614,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC795)
-    (at 267.529999 87.64)
+    (at 263.8 93.6)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606C864B)
@@ -2654,7 +2654,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC7AA)
-    (at 292.68 78.95)
+    (at 292.7 78.95)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606C8C99)
@@ -2694,7 +2694,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC7BF)
-    (at 273.17 47.07)
+    (at 281.25 40.6)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /606C9449)
@@ -2734,7 +2734,7 @@
   )
 
   (module foostan_kbd:LED_WS2812B-PLCC4 (layer B.Cu) (tedit 612A25FA) (tstamp 612AC7D4)
-    (at 246.8 41.8)
+    (at 248.4 40)
     (descr http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf)
     (tags "LED NeoPixel")
     (path /60753107)
