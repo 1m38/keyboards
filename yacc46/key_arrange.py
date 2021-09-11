@@ -288,7 +288,7 @@ def arrange_holes(center):
     move_right_modules_left_mirror(center, hole_corresponds)
 
 def arrange_keys():
-    HandsGap_mm = 16
+    HandsGap_mm = 14.4
 
     arrange_left()
     # decide center
