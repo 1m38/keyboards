@@ -228,12 +228,18 @@ def arrange_diodes():
         r = "SW" + str(i)
         sw = FindModuleByReference("SW" + str(i))
         d = FindModuleByReference("D" + str(i))
-        angle = -sw.GetOrientationDegrees()
+        angle = sw.GetOrientationDegrees()
         tmp_pos = pcbnew.ToMM(sw.GetPosition())
         sw_pos = MyPosition(tmp_pos[0], tmp_pos[1])
-        d_pos = sw_pos + SwitchPosition(0, 0, angle).right(0.43).up(-0.05).to_mm()
+        d_pos = sw_pos + SwitchPosition(0, 0, -angle).up(-0.3).to_mm()
         d.SetPosition(pcbnew.wxPointMM(d_pos.x, d_pos.y))
-        d.SetOrientationDegrees(90 - angle)
+        d.SetOrientationDegrees(angle)
+        # ref position (relative from switch position)
+        ref = d.Reference()
+        ref.SetTextAngle(0)
+        ref_pos_mm = (4.1, 0) if len(str(i)) == 1 else (4.6, 0)
+        ref_pos = pcbnew.wxPoint(pcbnew.FromMM(ref_pos_mm[0]), pcbnew.FromMM(ref_pos_mm[1]))
+        ref.SetPos0(ref_pos)
 
 def arrange_leds(center):
     led_corresponds = {
