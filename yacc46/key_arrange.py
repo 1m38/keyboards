@@ -279,9 +279,9 @@ def arrange_holes(center):
     hole_positions = {
         "H1": MyPosition(132.00, 131.05),
         "H2": MyPosition( 84.40, 100.65),
-        "H3": MyPosition( 42.00,  95.65),
-        "H4": MyPosition( 34.70,  46.25),
-        "H5": MyPosition( 86.25,  28.95),
+        "H3": MyPosition( 42.45,  94.85),
+        "H4": MyPosition( 34.70,  46.85),
+        "H5": MyPosition( 86.30,  29.10),
         "H6": MyPosition(142.00,  29.00),
         "H13": MyPosition(152.0, 58.2),
     }
