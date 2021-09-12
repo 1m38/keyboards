@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1217"
+   sodipodi:docname="yacc46_logo.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1918"
+     inkscape:window-height="1028"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="5.0797408"
+     inkscape:cx="45.665672"
+     inkscape:cy="39.583974"
+     inkscape:window-x="1906"
+     inkscape:window-y="1053"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs1211" />
+  <metadata
+     id="metadata1214">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="size"
+     style="display:none">
+    <rect
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.0415413;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.197183"
+       id="rect897"
+       width="17.958458"
+       height="11.886981"
+       x="2.338182"
+       y="0.9318611" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="logo">
+    <g
+       id="g895"
+       transform="matrix(0.62082299,0,0,0.62082299,1.0357437,1.0527296)"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Ultra-Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="2.0118928"
+         y="8.5971689"
+         id="text1045"><tspan
+           sodipodi:role="line"
+           id="tspan1043"
+           x="2.0118928"
+           y="8.5971689">y</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Ultra-Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="7.2211595"
+         y="10.401238"
+         id="text1049"><tspan
+           sodipodi:role="line"
+           id="tspan1047"
+           x="7.2211595"
+           y="10.401238">a</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Ultra-Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="12.649657"
+         y="10.401238"
+         id="text1053"><tspan
+           sodipodi:role="line"
+           id="tspan1051"
+           x="12.649657"
+           y="10.401238">c</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Ultra-Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="18.121992"
+         y="10.401238"
+         id="text1057"><tspan
+           sodipodi:role="line"
+           id="tspan1055"
+           x="18.121992"
+           y="10.401238">c</tspan></text>
+      <g
+         aria-label="4"
+         id="text1061"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Ultra-Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;opacity:0.998;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         transform="translate(-71.289628,-111.65424)">
+        <path
+           d="m 97.378923,124.27609 v -1.4605 h -2.349501 v -0.52917 l 1.961445,-3.15383 h 0.500945 l -1.996723,3.25967 v 0 h 1.883834 v -1.0795 h 0.465667 v 2.96333 z"
+           id="path1067"
+           sodipodi:nodetypes="ccccccccccccc" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Ultra-Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;opacity:0.998;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="26.623823"
+         y="12.621851"
+         id="text1065"><tspan
+           sodipodi:role="line"
+           id="tspan1063"
+           x="26.623823"
+           y="12.621851">6</tspan></text>
+    </g>
+  </g>
+</svg>
