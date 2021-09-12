@@ -1307,12 +1307,12 @@ LED
 $Comp
 L power:VCC #PWR019
 U 1 1 5FB87C1E
-P 900 8200
-F 0 "#PWR019" H 900 8050 50  0001 C CNN
-F 1 "VCC" H 915 8373 50  0000 C CNN
-F 2 "" H 900 8200 50  0001 C CNN
-F 3 "" H 900 8200 50  0001 C CNN
-	1    900  8200
+P 900 8050
+F 0 "#PWR019" H 900 7900 50  0001 C CNN
+F 1 "VCC" H 915 8223 50  0000 C CNN
+F 2 "" H 900 8050 50  0001 C CNN
+F 3 "" H 900 8050 50  0001 C CNN
+	1    900  8050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1934,24 +1934,22 @@ Connection ~ 6200 9100
 $Comp
 L Jumper:SolderJumper_3_Open JP1
 U 1 1 614ABBD0
-P 1250 8200
-F 0 "JP1" H 1250 8405 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 1407 8314 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 1250 8200 50  0001 C CNN
-F 3 "~" H 1250 8200 50  0001 C CNN
-	1    1250 8200
+P 1250 8050
+F 0 "JP1" H 1250 8255 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 1407 8164 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 1250 8050 50  0001 C CNN
+F 3 "~" H 1250 8050 50  0001 C CNN
+	1    1250 8050
 	1    0    0    -1  
 $EndComp
 Text GLabel 2450 1150 0    50   Input ~ 0
 RAW
-Text GLabel 1450 8200 2    50   Input ~ 0
+Text GLabel 1450 8050 2    50   Input ~ 0
 RAW
-Wire Wire Line
-	1250 8350 1250 8500
 Wire Wire Line
 	1250 8500 1400 8500
 Wire Wire Line
-	900  8200 1050 8200
+	900  8050 1050 8050
 Wire Wire Line
 	5400 8500 6200 8500
 Connection ~ 5400 8500
@@ -2144,4 +2142,8 @@ Wire Wire Line
 	6250 6450 6250 6550
 Wire Wire Line
 	6500 6450 6500 7150
+Wire Wire Line
+	1250 8200 1250 8500
+Text Label 1250 8400 0    50   ~ 0
+LED_POWER
 $EndSCHEMATC
