@@ -252,13 +252,13 @@ def arrange_leds(center):
         "LED7": "LED8",
     }
     led_positions = {
-        "LED1": MyPosition(148.30, 36.80),
-        "LED2": MyPosition(91.60, 40.00),
-        "LED3": MyPosition(58.75, 40.60),
-        "LED4": MyPosition(47.30, 78.95),
-        "LED5": MyPosition(76.20, 93.60),
-        "LED6": MyPosition(109.7, 112.00),
-        "LED7": MyPosition(147.10, 126.70)
+        "LED1": MyPosition(148.45, 33.80),
+        "LED2": MyPosition(114.10, 32.10),
+        "LED3": MyPosition(65.00, 43.30),
+        "LED4": MyPosition(34.30, 91.30),
+        "LED5": MyPosition(75.95, 95.05),
+        "LED6": MyPosition(110.25, 109.95),
+        "LED7": MyPosition(147.40, 126.00)
     }
 
     for ref, pos in led_positions.items():
