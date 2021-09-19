@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name 1m38_kbd)(type KiCad)(uri D:/Windows/Users/Masaya/Documents/1m38_keyboards/KiCad_library/1m38_kbd/footprints/1m38_kbd.pretty)(options "")(descr ""))
+  (lib (name foostan_kbd)(type KiCad)(uri D:/Windows/Users/Masaya/Documents/1m38_keyboards/KiCad_library/foostan_kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name yacc46_logo)(type KiCad)(uri D:/Windows/Users/Masaya/Documents/1m38_keyboards/yacc46/logo)(options "")(descr ""))
+)
