@@ -715,7 +715,7 @@ U 1 1 5F72C74F
 P 11450 2750
 F 0 "SW19" H 11250 3000 50  0000 L CNN
 F 1 "Rotary_Encoder_Switch" H 10650 3100 50  0000 L CNN
-F 2 "1m38_kbd:RotaryEncoder_Alps_EC11E-and-CherryMX-Single" H 11300 2910 50  0001 C CNN
+F 2 "1m38_kbd:RotaryEncoder_Alps_EC11E-and-CherryMX-Hotswap" H 11300 2910 50  0001 C CNN
 F 3 "~" H 11450 3010 50  0001 C CNN
 	1    11450 2750
 	-1   0    0    1   
@@ -1403,7 +1403,7 @@ U 1 1 5F759478
 P 5900 6450
 F 0 "SW36" H 5900 6200 50  0000 L CNN
 F 1 "Rotary_Encoder_Switch" H 5000 6200 50  0000 L CNN
-F 2 "1m38_kbd:RotaryEncoder_Alps_EC11E-and-CherryMX-Single" H 5750 6610 50  0001 C CNN
+F 2 "1m38_kbd:RotaryEncoder_Alps_EC11E-and-CherryMX-Hotswap" H 5750 6610 50  0001 C CNN
 F 3 "~" H 5900 6710 50  0001 C CNN
 	1    5900 6450
 	1    0    0    -1  
@@ -1899,7 +1899,7 @@ U 1 1 612A78A0
 P 3100 1850
 F 0 "U1" H 3150 2837 60  0000 C CNN
 F 1 "ProMicro_r" H 3150 2731 60  0000 C CNN
-F 2 "foostan_kbd:ProMicro_v3" H 3250 800 60  0001 C CNN
+F 2 "1m38_kbd:ProMicro" H 3250 800 60  0001 C CNN
 F 3 "" H 3250 800 60  0000 C CNN
 	1    3100 1850
 	1    0    0    -1  
