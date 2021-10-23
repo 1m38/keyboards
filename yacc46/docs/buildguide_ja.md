@@ -191,6 +191,17 @@ ProMicroを、PCB表側に取り付けます。
 
 ### ファームウェアを書き込む
 
+[Remap Keyboard Catalog](https://remap-keys.app/catalog/RhCKMVuQ6vAD3aW7nOul/firmware)
+より、"yacc46_via"のファームウェアを書き込みます。
+
+書き込み開始時は、PCB裏面に取り付けたリセットボタンを押してください。
+(1回押しても書き込めない場合は、2回連続で押してください。)
+
+<details>
+<summary>
+もしRemapから書き込めない場合は、こちらの手順でファームウェアを書き込んでください。(クリックで開く)
+</summary>
+
 以下のファイルをダウンロードします。
 
 [yacc46 QMK Firmware(VIA enabled)](https://drive.google.com/file/d/1kHac9_PJxZr1fpzN0hwIx9_E40fHPa9m/view?usp=sharing)
@@ -201,8 +212,7 @@ ProMicroを、PCB表側に取り付けます。
 書き込み方については、下記の記事を参考にしてください。  
 [（初心者編）自作キーボードにファームウェアを書き込む - 自作キーボード温泉街の歩き方](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)
 
-書き込み開始時は、PCB裏面に取り付けたリセットボタンを押してください。
-(1回押しても書き込めない場合は、2回連続で押してください。)
+</details>
 
 ### 一度動作確認する
 
@@ -434,12 +444,6 @@ PCBとトッププレートの側面は白っぽくなっているので、サ�
 最後に、キーキャップとロータリーエンコーダのノブをつけて完成です！
 
 <img src="img/yacc46.jpg">
-
-### 自慢する
-
-完成したら、ぜひ写真を撮ってSNSで自慢しましょう！
-ハッシュタグ `#yacc46` を付けてつぶやいていただけると嬉しいです！
-ご感想やお気づきの点などもお気軽にお聞かせください。
 
 ## カスタマイズ
 
