@@ -5,15 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="297mm"
    height="210mm"
    viewBox="0 0 116929.13 82677.166"
-   id="svg1840"
-   sodipodi:docname="yacc46_fullscale_drawing.svg"
-   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+   id="svg1840">
   <metadata
      id="metadata1846">
     <rdf:RDF>
@@ -28,27 +24,6 @@
   </metadata>
   <defs
      id="defs1844" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="3840"
-     inkscape:window-height="2097"
-     id="namedview1842"
-     showgrid="false"
-     units="mm"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="384.16956"
-     inkscape:cy="248.64948"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer9" />
   <title
      id="title2">SVG Picture created as yacc46_plate-brd.svg date 2021/10/17 12:06:19 </title>
   <desc
@@ -72,9 +47,7 @@
      style="fill:#c2c200;fill-opacity:0;stroke:#c2c200;stroke-width:59.0551;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
      id="g710" />
   <g
-     inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="orig"
      style="display:none">
     <g
        id="g702"
@@ -270,9 +243,7 @@
        transform="translate(1088.1516,7737.9663)" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="dimensions"
      style="display:inline">
     <text
        xml:space="preserve"
@@ -280,7 +251,6 @@
        x="56760.457"
        y="57572.445"
        id="text5619-6"><tspan
-         sodipodi:role="line"
          id="tspan5649"
          x="56760.457"
          y="57572.445">291.6mm</tspan></text>
@@ -339,15 +309,12 @@
        y="59386.711"
        id="text5619"
        transform="rotate(-90)"><tspan
-         sodipodi:role="line"
          id="tspan5621"
          x="-33277.766"
          y="59386.711">112.1mm</tspan></text>
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="MCUs"
      style="display:inline">
     <path
        d="m 59999.152,9679.9663 v 499.9997"
@@ -379,9 +346,7 @@
        style="fill:#c2c2c2;fill-opacity:0;stroke:#c2c2c2;stroke-width:78.7402;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer9"
-     inkscape:label="OLED1"
      style="display:inline">
     <rect
        style="display:inline;fill:#cccccc;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:78.7402;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -392,16 +357,13 @@
        y="13451.966" />
     <g
        id="g895"
-       transform="matrix(568.87182,0,0,568.87182,48978.079,58510.86)"
-       inkscape:export-xdpi="1000"
-       inkscape:export-ydpi="1000">
+       transform="matrix(568.87182,0,0,568.87182,48978.079,58510.86)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Ultra-Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="2.0118928"
          y="8.5971689"
          id="text1045"><tspan
-           sodipodi:role="line"
            id="tspan1043"
            x="2.0118928"
            y="8.5971689">y</tspan></text>
@@ -411,7 +373,6 @@
          x="7.2211595"
          y="10.401238"
          id="text1049"><tspan
-           sodipodi:role="line"
            id="tspan1047"
            x="7.2211595"
            y="10.401238">a</tspan></text>
@@ -421,7 +382,6 @@
          x="12.649657"
          y="10.401238"
          id="text1053"><tspan
-           sodipodi:role="line"
            id="tspan1051"
            x="12.649657"
            y="10.401238">c</tspan></text>
@@ -431,7 +391,6 @@
          x="18.121992"
          y="10.401238"
          id="text1057"><tspan
-           sodipodi:role="line"
            id="tspan1055"
            x="18.121992"
            y="10.401238">c</tspan></text>
@@ -442,8 +401,7 @@
          transform="translate(-71.289628,-111.65424)">
         <path
            d="m 97.378923,124.27609 v -1.4605 h -2.349501 v -0.52917 l 1.961445,-3.15383 h 0.500945 l -1.996723,3.25967 v 0 h 1.883834 v -1.0795 h 0.465667 v 2.96333 z"
-           id="path1067"
-           sodipodi:nodetypes="ccccccccccccc" />
+           id="path1067" />
       </g>
       <text
          xml:space="preserve"
@@ -451,27 +409,20 @@
          x="26.623823"
          y="12.621851"
          id="text1065"><tspan
-           sodipodi:role="line"
            id="tspan1063"
            x="26.623823"
            y="12.621851">6</tspan></text>
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1388.89px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:104.167"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1388.89px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:104.167;"
        x="49752.605"
        y="67265.625"
        id="text5729"><tspan
-         sodipodi:role="line"
-         id="tspan5727"
-         x="49752.605"
-         y="67265.625"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1388.89px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:104.167">v0.4  designed by 1.038</tspan></text>
+         id="tspan1686">v1.0  designed by 1.038</tspan></text>
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="OLED2"
      style="display:inline">
     <rect
        style="display:inline;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:78.7402;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -482,14 +433,10 @@
        y="17612.967" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer8"
-     inkscape:label="tmp"
      style="display:inline" />
   <g
-     inkscape:groupmode="layer"
      id="layer6"
-     inkscape:label="switch_edges"
      style="display:inline">
     <g
        id="g5615"
@@ -1233,9 +1180,7 @@
     </g>
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="switch_holes"
      style="display:inline">
     <g
        style="fill:#c2c200;fill-opacity:0;stroke:#999999;stroke-width:47.2441;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
@@ -2124,9 +2069,7 @@
     </g>
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="encoders"
      style="display:inline">
     <circle
        cx="67213.25"
@@ -2142,9 +2085,7 @@
        style="display:inline;fill:#c2c2c2;fill-opacity:0;stroke:#999999;stroke-width:59.0551;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="edge"
      style="display:inline">
     <g
        style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:78.7402;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
