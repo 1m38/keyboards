@@ -64,7 +64,7 @@
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
-      (usegerberextensions true)
+      (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
       (creategerberjobfile false)
@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "garver_v0.4/"))
+      (outputdirectory "garver_v1.0/"))
   )
 
   (net 0 "")
@@ -7698,7 +7698,7 @@
   (segment (start 302.18 92.9) (end 299.18 89.9) (width 0.5) (layer B.Cu) (net 82))
   (segment (start 303.2 92.9) (end 302.18 92.9) (width 0.5) (layer B.Cu) (net 82))
 
-  (zone (net 54) (net_name GND) (layer F.Cu) (tstamp 6149D635) (hatch edge 0.508)
+  (zone (net 54) (net_name GND) (layer F.Cu) (tstamp 617B6C26) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -10371,7 +10371,7 @@
       )
     )
   )
-  (zone (net 54) (net_name GND) (layer B.Cu) (tstamp 6149D632) (hatch edge 0.508)
+  (zone (net 54) (net_name GND) (layer B.Cu) (tstamp 617B6C23) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
