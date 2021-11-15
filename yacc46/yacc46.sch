@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "yacc46"
-Date ""
-Rev "0.2"
+Date "2021-10-29"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
