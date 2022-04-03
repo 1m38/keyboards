@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "1m38_kbd")(type "KiCad")(uri "D:/Windows/Users/main/Documents/1m38_keyboards/KiCad_library/1m38_kbd_v6/footprints/1m38_kbd.pretty")(options "")(descr ""))
+  (lib (name "1m38_kbd_v5")(type "KiCad")(uri "D:/Windows/Users/main/Documents/1m38_keyboards/KiCad_library/1m38_kbd/footprints/1m38_kbd.pretty")(options "")(descr ""))
+  (lib (name "foostan_kbd")(type "KiCad")(uri "D:/Windows/Users/main/Documents/1m38_keyboards/KiCad_library/foostan_kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
 )
