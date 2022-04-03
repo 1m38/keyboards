@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "1m38_kbd_v5")(type "Legacy")(uri "D:/Windows/Users/main/Documents/1m38_keyboards/KiCad_library/1m38_kbd/symbols/1m38_kbd.lib")(options "")(descr ""))
+  (lib (name "1m38_kbd")(type "KiCad")(uri "D:/Windows/Users/main/Documents/1m38_keyboards/KiCad_library/1m38_kbd_v6/symbols/1m38_kbd.kicad_sym")(options "")(descr ""))
+)
