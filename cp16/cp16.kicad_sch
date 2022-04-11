@@ -1798,7 +1798,7 @@
     (property "Value" "MCP23017_SP" (id 1) (at 82.0294 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DIP:DIP-28_W7.62mm_Socket" (id 2) (at 85.09 137.16 0)
+    (property "Footprint" "Package_DIP:DIP-28_W7.62mm" (id 2) (at 85.09 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" (id 3) (at 85.09 139.7 0)
@@ -2399,7 +2399,7 @@
       (reference "U1") (unit 1) (value "Seeeduino_Xiao") (footprint "1m38_kbd:Seeed XIAO RP2040")
     )
     (path "/98060f6a-0fd9-43a5-abcd-87e9cb83ea41"
-      (reference "U2") (unit 1) (value "MCP23017_SP") (footprint "Package_DIP:DIP-28_W7.62mm_Socket")
+      (reference "U2") (unit 1) (value "MCP23017_SP") (footprint "Package_DIP:DIP-28_W7.62mm")
     )
   )
 )
