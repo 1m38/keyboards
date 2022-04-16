@@ -11,9 +11,12 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+*-backups
 # Netlist files (exported from Eeschema)
 *.net
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
 *.pyc
+# Project local settings file
+*.kicad_prl
